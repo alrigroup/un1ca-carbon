@@ -59,3 +59,7 @@ Thumbs.db
 
 # Claude 
 .claude/
+
+# Internal developer docs (strictly local - never commit)
+devdocs/
+docs/camera_calibration_*.txt
