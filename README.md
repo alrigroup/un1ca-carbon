@@ -92,7 +92,6 @@ To keep this main page clean, detailed technical specifications and guides have 
 | 📲 **Installation** | **[docs/INSTALLATION.md](docs/INSTALLATION.md)** | Step-by-step flashing guides for Scenario A (Bit A) and Scenario B (older bits), TWRP, and Odin. |
 | 📜 **Changelog** | **[docs/CHANGELOG.md](docs/CHANGELOG.md)** | Complete version history and changelogs from v1.0 to v1.1. |
 | 🔐 **Security & Keys** | **[docs/SECURITY_AND_KEYS.md](docs/SECURITY_AND_KEYS.md)** | Details on our private RSA-4096 keyset, Knox mitigation, and stealth stack. |
-| 🗺️ **Roadmap** | **[docs/ROADMAP.md](docs/ROADMAP.md)** | Tracked bugs, planned improvements, and upcoming v1.2 milestones. |
 | 🔬 **Developer Guides**| **[docs/dev_guides/](docs/dev_guides/)** | Deep dive into Carbon Engine C++20, DAG caching, and graphics architecture. |
 
 ---
