@@ -317,7 +317,38 @@ Unlike proprietary cloud AI features that stream your private texts, notes, and 
 
 We firmly believe in community-driven development, transparency, and freedom of choice. **Any and all contributions are 100% welcome!** Whether you are submitting pull requests, testing builds, reporting edge-case bugs, improving kernel parameters, optimizing battery profiles, translating interfaces, or contributing device trees for other Galaxy models — your participation is deeply valued.
 
-Feel free to open issues, submit pull requests, or share feedback. Let's push custom Android firmware forward together.
+---
+
+### 🐛 Official Bug Reporting & Feedback Program
+
+To streamline our engineering workflow and ensure rapid triage, **GitHub Issues is our official primary hub for all bug reports, logs, and feature requests**:
+
+👉 **[https://github.com/alrigroup/un1ca-carbon/issues](https://github.com/alrigroup/un1ca-carbon/issues)**
+
+When submitting an issue:
+* Include device variant (`SM-S911B` or `SM-S9110`), current build version, and installed modules.
+* Attach relevant logs (`logcat`, `dmesg`, or BetterBatteryStats dumps) whenever reporting crashes, wake locks, or battery drain.
+* Check existing issues first to avoid duplicate reports.
+
+> 💡 **Don't have a GitHub account?**  
+> No problem at all! Feel free to post your reports, logcats, and screenshots directly in our [official XDA thread](https://xdaforums.com/t/rom-17-0-oneui-9-0-dm1q-s911b-un1ca-carbon-ix-v1-1-bit-a.4805565/). Our team actively monitors XDA and will mirror community findings to GitHub so no issue is left behind.
+
+---
+
+### 👨‍💻 Open Call for Volunteer Developers (Join the Team & Get Credited!)
+
+We warmly invite **Android developers, reverse engineers, kernel enthusiasts, UI designers, and ROM builders** who want to collaborate on the future of One UI on Snapdragon 8 Gen 2 hardware:
+
+* **How you can contribute:**
+  * 🛠️ **Pull Requests:** Bug fixes, smali patches, framework optimizations, and clean-ups.
+  * ⚡ **Performance & Battery:** Kernel governor tuning, wakelock mitigations, and thermal profiles.
+  * 📱 **Device Trees:** Porting and testing support for Galaxy S23+ (`dm2q`) and S23 Ultra (`dm3q`).
+  * 🎨 **UI/UX & Localization:** Interface refinements, system animations, and translation packs.
+  * 🧠 **Neural & AI:** Improving local on-device LLM/NPU acceleration and AI framework hooks.
+
+🎖️ **Full Attribution Guaranteed:** Every single contributor who submits a merged Pull Request, provides actionable code fixes, or contributes verified patches will have their name, GitHub profile, and specific contributions **permanently credited in our official README, GitHub Release Notes, and XDA thread**.
+
+Let's push custom Android firmware forward together! Open a PR or submit an issue to start collaborating.
 
 ---
 
