@@ -115,6 +115,11 @@ If you are a developer, modder, or Android enthusiast and you like the project, 
 
 Whether it's opening a Pull Request with a bug fix, sharing a smali patch, tuning kernel parameters, helping with translations, or testing builds — **any help is always very welcome**. Every contributor will have their name and work **permanently credited** in the project's official README, Release Notes, and XDA thread.
 
+### 💬 Community & Direct Contact
+Want to chat, discuss ideas, or reach out directly?
+* 🎮 **Discord:** Join the official ALRI GROUP server at **[dsc.gg/alrigroup](https://dsc.gg/alrigroup)**
+* ✈️ **Telegram:** Message Alexsander ALRI directly at **[@alexsanderalri](http://t.me/alexsanderalri)**
+
 Feel free to open a PR, join discussions in Issues, or connect with us!
 
 ---
