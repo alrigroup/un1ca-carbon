@@ -75,6 +75,14 @@ done < <(find "$MODPATH/SecSettings.apk" -type f \
     ! -name "*.orig" \
     ! -name "*.rej")
 
+# Purge unsupported Privacy Display and badging artifacts on Galaxy S23 Base (Resolves Issues #2 & #5)
+LOG "- Purging unsupported Privacy Display preferences and badging layouts"
+sed -i '/privacy_display/d' "$APKTOOL_DIR/system/priv-app/SecSettings/SecSettings.apk/res/xml/sec_display_settings.xml" 2>/dev/null || true
+sed -i '/pd_inset/d' "$APKTOOL_DIR/system/priv-app/SecSettings/SecSettings.apk/res/xml/sec_display_settings.xml" 2>/dev/null || true
+sed -i 's/<bool name="config_pd_enable">true<\/bool>/<bool name="config_pd_enable">false<\/bool>/g' "$APKTOOL_DIR/system/priv-app/SecSettings/SecSettings.apk/res/values/bools.xml" 2>/dev/null || true
+sed -i 's/android:layout="@layout\/sec_homepage_software_update_preference"//g' "$APKTOOL_DIR/system/priv-app/SecSettings/SecSettings.apk/res/xml/sec_top_level_settings.xml" 2>/dev/null || true
+SET_FLOATING_FEATURE_CONFIG "SEC_FLOATING_FEATURE_LCD_CONFIG_PRIVACY_DISPLAY" "0"
+
 # Expose UN1CA-selected SamsungSans source-bank fonts through Samsung's normal
 # Display > Font list and apply path.
 LOG "- Patching Samsung font list integration in /system/system/priv-app/SecSettings.apk"
