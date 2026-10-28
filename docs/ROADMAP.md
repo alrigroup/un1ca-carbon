@@ -25,6 +25,27 @@ The primary goal of **v1.2** is addressing community feedback from the initial v
 
 ---
 
+## 🔬 Candidate Features & Upstream Inspirations (AstroROM / ProjectArcadeX)
+Evaluated and cataloged for implementation and bench-testing in **v1.2**:
+
+### 📷 1. Advanced Camera Unlocks (`camera-feature.xml` & CSC)
+* **4K 120 FPS Video Recording:** Activate `BACK_CAMCORDER_RESOLUTION_FEATURE_MAP_3840X2160_120FPS` for Pro Video and Slow Motion modes on Snapdragon 8 Gen 2.
+* **50MP Super Resolution:** Enable `8160x6120` full sensor capture matrices in Pro Photo and Super Resolution mode.
+* **Continuous Audio Recording:** Enable `CscFeature_Camera_CamcorderDoNotPauseMusic = TRUE` (prevents Spotify, Apple Music, and podcast players from pausing when recording video).
+* **Superfine JPEG Quality:** Set `CscFeature_Camera_DefaultQuality = superfine` to minimize Samsung lossy JPEG compression artifacts.
+* **In-Call Camera Activation:** Set `CscFeature_Camera_EnableCameraDuringCall = TRUE`.
+
+### 📱 2. High-Value Native CSC Features (`cscfeature.xml`)
+* **Samsung Native AppLock:** Inject `applock` into `CscFeature_SmartManager_ConfigSubFeatures` to enable Samsung's biometric app locking out of the box without third-party tools.
+* **Data Usage on Quick Panel:** Set `CscFeature_SystemUI_SupportDataUsageViewOnQuickPanel = TRUE` to display real-time network consumption directly under quick settings.
+* **Alive Zoom in Gallery:** Enable `CscFeature_Gallery_SupportAliveZoom = TRUE`.
+* **Clock Timer Reset:** Set `CscFeature_Clock_SupportTimerResetButton = TRUE`.
+
+### ⚡ 3. UI Snappiness & Window Animations (0.85x Multiplier)
+* **Smooth Physics Multiplier:** Patch `WindowManagerService.smali` default window animation scale from stock `1.0f` (`0x3f800000`) to **`0.85f`** (`0x3f59999a`). Delivers instantaneous touch feedback while preserving authentic One UI elastic physics without clipping frames like legacy `0.5x`.
+
+---
+
 ## 🔭 Future Milestones (v1.3 & Beyond)
 
 * **Galaxy S23 Family Device Expansion:** Unified device trees for S23+ (`dm2q`) and S23 Ultra (`dm3q`).
