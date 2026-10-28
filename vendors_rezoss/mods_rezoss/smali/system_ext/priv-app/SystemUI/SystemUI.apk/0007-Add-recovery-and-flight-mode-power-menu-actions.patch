@@ -1,7 +1,7 @@
 From 40a218781a5e7fb7bbd7b09c5d1dc5e3c2cf4eb2 Mon Sep 17 00:00:00 2001
 From: @rezoss_reza <rezoss@local>
 Date: Mon, 14 Sep 2026 00:00:00 +0200
-Subject: [PATCH] Add recovery and flight mode power menu actions
+Subject: [PATCH] Add recovery and flight mode power menu actions with consistent circular styling
 
 diff --git a/AndroidManifest.xml b/AndroidManifest.xml
 index 2f8d6821f..95a1f8040 100644
@@ -10,12 +10,70 @@ index 2f8d6821f..95a1f8040 100644
 @@ -9,0 +10,2 @@
 +    <uses-permission android:name="android.permission.REBOOT"/>
 +    <uses-permission android:name="android.permission.RECOVERY"/>
+diff --git a/res/drawable/sec_globalactions_icon_airplane.xml b/res/drawable/sec_globalactions_icon_airplane.xml
+new file mode 100644
+index 000000000..111111111
+--- /dev/null
++++ b/res/drawable/sec_globalactions_icon_airplane.xml
+@@ -0,0 +1,21 @@
++<?xml version="1.0" encoding="utf-8"?>
++<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
++    <item>
++        <shape android:shape="oval">
++            <size android:width="60dp" android:height="60dp" />
++            <solid android:color="#26FFFFFF" />
++        </shape>
++    </item>
++    <item
++        android:width="28dp"
++        android:height="28dp"
++        android:gravity="center">
++        <vector
++            android:width="28dp"
++            android:height="28dp"
++            android:viewportWidth="24"
++            android:viewportHeight="24">
++            <path
++                android:fillColor="#FFFFFFFF"
++                android:pathData="M21,16v-2l-8,-5V3.5c0,-0.83 -0.67,-1.5 -1.5,-1.5S10,2.67 10,3.5V9l-8,5v2l8,-2.5V19l-2,1.5V22l3.5,-1l3.5,1v-1.5L13,19v-5.5l8,2.5z" />
++        </vector>
++    </item>
++</layer-list>
+diff --git a/res/drawable/sec_globalactions_icon_recovery.xml b/res/drawable/sec_globalactions_icon_recovery.xml
+new file mode 100644
+index 000000000..222222222
+--- /dev/null
++++ b/res/drawable/sec_globalactions_icon_recovery.xml
+@@ -0,0 +1,21 @@
++<?xml version="1.0" encoding="utf-8"?>
++<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
++    <item>
++        <shape android:shape="oval">
++            <size android:width="60dp" android:height="60dp" />
++            <solid android:color="#26FFFFFF" />
++        </shape>
++    </item>
++    <item
++        android:width="28dp"
++        android:height="28dp"
++        android:gravity="center">
++        <vector
++            android:width="28dp"
++            android:height="28dp"
++            android:viewportWidth="24"
++            android:viewportHeight="24">
++            <path
++                android:fillColor="#FFFFFFFF"
++                android:pathData="M12,5V1L7,6l5,5V7c3.31,0 6,2.69 6,6c0,1.01 -0.25,1.97 -0.7,2.8l1.46,1.46C19.54,15.95 20,14.54 20,13c0,-4.42 -3.58,-8 -8,-8zm-6,8c0,-1.01 0.25,-1.97 0.7,-2.8L5.24,8.74C4.46,10.05 4,11.46 4,13c0,4.42 3.58,8 8,8v4l5,-5 -5,-5v4c-3.31,0 -6,-2.69 -6,-6z" />
++        </vector>
++    </item>
++</layer-list>
 diff --git a/smali_classes2/com/android/systemui/globalactions/features/RezossPowerMenuStrategy.smali b/smali_classes2/com/android/systemui/globalactions/features/RezossPowerMenuStrategy.smali
 new file mode 100644
 index 000000000..782bb1ce3
 --- /dev/null
 +++ b/smali_classes2/com/android/systemui/globalactions/features/RezossPowerMenuStrategy.smali
-@@ -0,0 +1,92 @@
+@@ -0,0 +1,130 @@
 +.class public Lcom/android/systemui/globalactions/features/RezossPowerMenuStrategy;
 +.super Ljava/lang/Object;
 +.source "RezossPowerMenuStrategy.java"
@@ -42,7 +100,7 @@ index 000000000..782bb1ce3
 +
 +# virtual methods
 +.method public final onCreateActions(Lcom/samsung/android/globalactions/presentation/SamsungGlobalActions;)V
-+    .locals 6
++    .locals 8
 +
 +    new-instance v0, Lcom/android/systemui/globalactions/presentation/viewmodel/AirplaneModeActionViewModel;
 +
@@ -64,9 +122,32 @@ index 000000000..782bb1ce3
 +
 +    invoke-virtual {v1, v2}, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;->setDescription(Ljava/lang/String;)V
 +
-+    const v3, 0x7e08168e
++    iget-object v2, p0, Lcom/android/systemui/globalactions/features/RezossPowerMenuStrategy;->mContext:Landroid/content/Context;
 +
-+    invoke-virtual {v1, v3}, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;->setIcon(I)V
++    invoke-virtual {v2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
++
++    move-result-object v2
++
++    const-string/jumbo v3, "sec_globalactions_icon_airplane"
++
++    const-string/jumbo v4, "drawable"
++
++    iget-object v5, p0, Lcom/android/systemui/globalactions/features/RezossPowerMenuStrategy;->mContext:Landroid/content/Context;
++
++    invoke-virtual {v5}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
++
++    move-result-object v5
++
++    invoke-virtual {v2, v3, v4, v5}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
++
++    move-result v2
++
++    if-nez v2, :cond_airplane_icon
++
++    const v2, 0x7e08168e
++
++    :cond_airplane_icon
++    invoke-virtual {v1, v2}, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;->setIcon(I)V
 +
 +    sget-object v3, Lcom/samsung/android/globalactions/presentation/viewmodel/ViewType;->CENTER_ICON_4P_VIEW:Lcom/samsung/android/globalactions/presentation/viewmodel/ViewType;
 +
@@ -78,27 +159,50 @@ index 000000000..782bb1ce3
 +
 +    new-instance v4, Lcom/android/systemui/globalactions/presentation/viewmodel/RecoveryActionViewModel;
 +
-+    iget-object p0, p0, Lcom/android/systemui/globalactions/features/RezossPowerMenuStrategy;->mContext:Landroid/content/Context;
++    iget-object v5, p0, Lcom/android/systemui/globalactions/features/RezossPowerMenuStrategy;->mContext:Landroid/content/Context;
 +
-+    invoke-direct {v4, p0, p1}, Lcom/android/systemui/globalactions/presentation/viewmodel/RecoveryActionViewModel;-><init>(Landroid/content/Context;Lcom/samsung/android/globalactions/presentation/SamsungGlobalActions;)V
++    invoke-direct {v4, v5, p1}, Lcom/android/systemui/globalactions/presentation/viewmodel/RecoveryActionViewModel;-><init>(Landroid/content/Context;Lcom/samsung/android/globalactions/presentation/SamsungGlobalActions;)V
 +
 +    new-instance v5, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;
 +
 +    invoke-direct {v5}, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;-><init>()V
 +
-+    const-string v0, "recovery"
++    const-string/jumbo v6, "recovery"
 +
-+    invoke-virtual {v5, v0}, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;->setName(Ljava/lang/String;)V
++    invoke-virtual {v5, v6}, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;->setName(Ljava/lang/String;)V
 +
-+    const-string v0, "Reboot to Recovery"
++    const-string/jumbo v6, "Reboot to Recovery"
 +
-+    invoke-virtual {v5, v0}, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;->setLabel(Ljava/lang/String;)V
++    invoke-virtual {v5, v6}, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;->setLabel(Ljava/lang/String;)V
 +
-+    invoke-virtual {v5, v0}, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;->setDescription(Ljava/lang/String;)V
++    invoke-virtual {v5, v6}, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;->setDescription(Ljava/lang/String;)V
 +
-+    const v0, 0x7e080956
++    iget-object v6, p0, Lcom/android/systemui/globalactions/features/RezossPowerMenuStrategy;->mContext:Landroid/content/Context;
 +
-+    invoke-virtual {v5, v0}, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;->setIcon(I)V
++    invoke-virtual {v6}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
++
++    move-result-object v6
++
++    const-string/jumbo v7, "sec_globalactions_icon_recovery"
++
++    const-string/jumbo v2, "drawable"
++
++    iget-object p0, p0, Lcom/android/systemui/globalactions/features/RezossPowerMenuStrategy;->mContext:Landroid/content/Context;
++
++    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
++
++    move-result-object p0
++
++    invoke-virtual {v6, v7, v2, p0}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
++
++    move-result p0
++
++    if-nez p0, :cond_recovery_icon
++
++    const p0, 0x7e080956
++
++    :cond_recovery_icon
++    invoke-virtual {v5, p0}, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;->setIcon(I)V
 +
 +    invoke-virtual {v5, v3}, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;->setViewType(Lcom/samsung/android/globalactions/presentation/viewmodel/ViewType;)V
 +
@@ -113,9 +217,9 @@ index d95bb3965..b5233949b 100644
 --- a/smali_classes2/com/android/systemui/globalactions/presentation/features/GlobalActionsFeatureFactory.smali
 +++ b/smali_classes2/com/android/systemui/globalactions/presentation/features/GlobalActionsFeatureFactory.smali
 @@ -305,6 +305,14 @@
-
+ 
      invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-
+ 
 +    new-instance v1, Lcom/android/systemui/globalactions/features/RezossPowerMenuStrategy;
 +
 +    iget-object v2, p0, Lcom/android/systemui/globalactions/presentation/features/GlobalActionsFeatureFactory;->mContext:Landroid/content/Context;
@@ -125,7 +229,7 @@ index d95bb3965..b5233949b 100644
 +    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 +
      iget-object v1, p0, Lcom/android/systemui/globalactions/presentation/features/GlobalActionsFeatureFactory;->mFeatures:Lcom/samsung/android/globalactions/presentation/features/Features;
-
+ 
      const-string v2, "SUPPORT_SIDE_KEY"
 diff --git a/smali_classes2/com/android/systemui/globalactions/presentation/viewmodel/AirplaneModeActionViewModel.smali b/smali_classes2/com/android/systemui/globalactions/presentation/viewmodel/AirplaneModeActionViewModel.smali
 new file mode 100644
@@ -391,9 +495,9 @@ index 000000000..d3a1989af
 +
 +    check-cast p0, Landroid/os/PowerManager;
 +
-+    const-string/jumbo v2, "recovery"
++    const-string/jumbo v0, "recovery"
 +
-+    invoke-virtual {p0, v2}, Landroid/os/PowerManager;->reboot(Ljava/lang/String;)V
++    invoke-virtual {p0, v0}, Landroid/os/PowerManager;->reboot(Ljava/lang/String;)V
 +
 +    return-void
 +.end method
@@ -407,11 +511,9 @@ index 000000000..d3a1989af
 +.end method
 +
 +.method public showBeforeProvisioning()Z
-+    .locals 0
++    .locals 1
 +
-+    const/4 p0, 0x1
++    const/4 v0, 0x1
 +
-+    return p0
++    return v0
 +.end method
---
-2.43.0
