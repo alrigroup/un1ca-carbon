@@ -37,7 +37,7 @@
 
     iput-object p1, p0, Lio/mesalabs/unica/settings/ui/BootAnimationPreferenceController;->mPreference:Landroidx/preference/SecDropDownPreference;
 
-    const/4 v0, 0x2
+    const/4 v0, 0x3
 
     new-array v1, v0, [Ljava/lang/CharSequence;
 
@@ -47,11 +47,17 @@
 
     aput-object v2, v1, v3
 
-    const-string v2, "Android 17 (REZOSS)"
+    const-string v2, "Samsung One UI (Stock)"
 
     const/4 v4, 0x1
 
     aput-object v2, v1, v4
+
+    const-string v2, "Android 17 (AOSP)"
+
+    const/4 v5, 0x2
+
+    aput-object v2, v1, v5
 
     invoke-virtual {p1, v1}, Landroidx/preference/DropDownPreference;->setEntries([Ljava/lang/CharSequence;)V
 
@@ -63,9 +69,13 @@
 
     aput-object v1, v0, v3
 
-    const-string v1, "rezoss"
+    const-string v1, "stock"
 
     aput-object v1, v0, v4
+
+    const-string v1, "rezoss"
+
+    aput-object v1, v0, v5
 
     iput-object v0, p1, Landroidx/preference/ListPreference;->mEntryValues:[Ljava/lang/CharSequence;
 
@@ -79,19 +89,32 @@
 
     move-result-object v0
 
+    const-string v1, "stock"
+
+    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_check_rezoss
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_check_rezoss
     const-string v1, "rezoss"
 
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
-    if-eqz v0, :cond_0
+    if-eqz v0, :cond_default_carbon
 
-    const/4 v0, 0x1
+    const/4 v0, 0x2
 
     goto :goto_0
 
-    :cond_0
+    :cond_default_carbon
     const/4 v0, 0x0
 
     :goto_0
@@ -247,22 +270,35 @@
 
     iget-object p1, p0, Lio/mesalabs/unica/settings/ui/BootAnimationPreferenceController;->mPreference:Landroidx/preference/SecDropDownPreference;
 
+    const-string v0, "stock"
+
+    invoke-virtual {v0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_check_change_rezoss
+
+    const/4 v0, 0x1
+
+    goto :goto_change_done
+
+    :cond_check_change_rezoss
     const-string v0, "rezoss"
 
     invoke-virtual {v0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
-    if-eqz v0, :cond_1
+    if-eqz v0, :cond_default_change_carbon
 
-    const/4 v0, 0x1
+    const/4 v0, 0x2
 
-    goto :goto_0
+    goto :goto_change_done
 
-    :cond_1
+    :cond_default_change_carbon
     const/4 v0, 0x0
 
-    :goto_0
+    :goto_change_done
     invoke-virtual {p1, v0}, Landroidx/preference/DropDownPreference;->setValueIndex(I)V
 
     const/4 p0, 0x1

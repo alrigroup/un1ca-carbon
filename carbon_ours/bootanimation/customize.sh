@@ -33,6 +33,14 @@ if [ "$STYLE" == "carbon" ]; then
         cp -a "$CARBON_ZIP" "$WORK_DIR/system/system/media/bootanimation_carbon.zip"
         SET_METADATA "system" "system/media/bootanimation_carbon.zip" 0 0 644 "u:object_r:system_file:s0"
 
+        # Install Samsung One UI stock boot animation zip for dynamic switching
+        SAMSUNG_ZIP="$MODPATH/system/media/bootanimation_samsung.zip"
+        if [ -f "$SAMSUNG_ZIP" ]; then
+            LOG "- Installing Samsung One UI stock boot animation package"
+            cp -a "$SAMSUNG_ZIP" "$WORK_DIR/system/system/media/bootanimation_samsung.zip"
+            SET_METADATA "system" "system/media/bootanimation_samsung.zip" 0 0 644 "u:object_r:system_file:s0"
+        fi
+
         # Direct native replacement of Samsung stock QMG bootanimation with AOSP zip player
         AOSP_BIN="$MODPATH/system/bin/bootanimation_zip"
         [ -f "$AOSP_BIN" ] || AOSP_BIN="$SRC_DIR/vendors_rezoss/mods_rezoss/bootanimation_zip/system/bin/bootanimation_zip"
