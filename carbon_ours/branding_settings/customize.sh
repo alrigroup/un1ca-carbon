@@ -83,6 +83,22 @@ sed -i 's/<bool name="config_pd_enable">true<\/bool>/<bool name="config_pd_enabl
 sed -i 's/android:layout="@layout\/sec_homepage_software_update_preference"//g' "$APKTOOL_DIR/system/priv-app/SecSettings/SecSettings.apk/res/xml/sec_top_level_settings.xml" 2>/dev/null || true
 SET_FLOATING_FEATURE_CONFIG "SEC_FLOATING_FEATURE_LCD_CONFIG_PRIVACY_DISPLAY" "0"
 
+# Set default system window animations to 0.85x for enhanced UI snappiness
+LOG "- Tuning default window animation scales to 0.85x"
+WMS_SMALI=$(find "$APKTOOL_DIR/system/framework/services.jar" -type f -name "WindowManagerService.smali" 2>/dev/null | head -n 1)
+if [ -n "$WMS_SMALI" ] && [ -f "$WMS_SMALI" ]; then
+    sed -i "s/const\/high16 v3, 0x3f800000/const v3, 0x3f59999a    # 0.85f/g" "$WMS_SMALI"
+fi
+
+DECODE_APK "system" "system/priv-app/SettingsProvider/SettingsProvider.apk"
+SP_DEFAULTS="$APKTOOL_DIR/system/priv-app/SettingsProvider/SettingsProvider.apk/res/values/defaults.xml"
+if [ -f "$SP_DEFAULTS" ]; then
+    LOG "- Setting SettingsProvider default animation scales to 0.85x"
+    sed -i 's/<string name="def_window_animation_scale" translatable="false">1<\/string>/<string name="def_window_animation_scale" translatable="false">0.85<\/string>/g' "$SP_DEFAULTS"
+    sed -i 's/<string name="def_window_transition_scale" translatable="false">1<\/string>/<string name="def_window_transition_scale" translatable="false">0.85<\/string>/g' "$SP_DEFAULTS"
+    sed -i 's/<string name="def_animator_duration_scale" translatable="false">1<\/string>/<string name="def_animator_duration_scale" translatable="false">0.85<\/string>/g' "$SP_DEFAULTS"
+fi
+
 # Expose UN1CA-selected SamsungSans source-bank fonts through Samsung's normal
 # Display > Font list and apply path.
 LOG "- Patching Samsung font list integration in /system/system/priv-app/SecSettings.apk"
