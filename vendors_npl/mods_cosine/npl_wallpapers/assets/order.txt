@@ -1,5 +1,9 @@
-# UN1CA Carbon wallpaper picker order (Carbon Official first)
+# UN1CA Carbon wallpaper picker order (Carbon Official first, followed by classic S23 stock suite)
 carbon_official.jpg
+s23_botanic_green.jpg
+s23_cotton_flower.jpg
+s23_misty_lilac.jpg
+s23_phantom_black.jpg
 sagarmatha_everest_zone.jpg
 dodhara_chadani_mahakali_bridge.jpg
 everest_himalayas.jpg
