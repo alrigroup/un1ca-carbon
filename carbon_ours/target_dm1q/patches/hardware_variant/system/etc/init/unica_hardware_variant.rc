@@ -5,6 +5,13 @@
 #
 
 # Trigger for SM-S9110 (Hong Kong / Taiwan / China)
+on early-init && property:ro.boot.em.model=SM-S9110
+    setprop persist.vendor.radio.multisim.config dsds
+    setprop persist.radio.multisim.config dsds
+    setprop ro.vendor.multisim.simslotcount 2
+    setprop ro.multisim.simslotcount 2
+    setprop ro.telephony.sim_slots.count 2
+
 on post-fs-data && property:ro.boot.em.model=SM-S9110
     setprop persist.radio.multisim.config dsds
     setprop persist.radio.esim.slotswitch ""
@@ -14,6 +21,13 @@ on post-fs-data && property:ro.boot.em.model=SM-S9110
     setprop ro.telephony.sim_slots.count 2
 
 # Fallback trigger if bootloader sets sku instead of em.model
+on early-init && property:ro.boot.hardware.sku=SM-S9110
+    setprop persist.vendor.radio.multisim.config dsds
+    setprop persist.radio.multisim.config dsds
+    setprop ro.vendor.multisim.simslotcount 2
+    setprop ro.multisim.simslotcount 2
+    setprop ro.telephony.sim_slots.count 2
+
 on post-fs-data && property:ro.boot.hardware.sku=SM-S9110
     setprop persist.radio.multisim.config dsds
     setprop persist.radio.esim.slotswitch ""
@@ -21,3 +35,9 @@ on post-fs-data && property:ro.boot.hardware.sku=SM-S9110
     setprop ro.vendor.multisim.simslotcount 2
     setprop ro.multisim.simslotcount 2
     setprop ro.telephony.sim_slots.count 2
+
+# Standby Battery Optimizations: Throttle IMS carrier switch loop to prevent deep sleep wakeups
+on post-fs-data
+    setprop persist.radio.imsserviceswitch false
+    setprop persist.vendor.radio.imsswitch false
+    setprop ro.telephony.ims.alarm_throttle true

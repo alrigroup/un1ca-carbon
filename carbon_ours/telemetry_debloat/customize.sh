@@ -100,4 +100,17 @@ _debloat_target "product" "priv-app/CarrierWifi" "Google Wi-Fi Carrier Auto-Prov
 _debloat_target "system_ext" "priv-app/QaiorScreenUnderstandingService" "Qualcomm AI Screen Understanding Service"
 _debloat_target "system_ext" "priv-app/screenunderstanding" "Qualcomm Screen Understanding Sample App"
 
+# --- Sensor Wakelock & Standby Power Mitigations (Resolves Issue #11) ---
+if [ -n "$WORK_DIR" ]; then
+    LOG "- Mitigating sdhms physical activity sensor wakelocks"
+    for perm_file in \
+        "$WORK_DIR/system/system/etc/permissions/privapp-permissions-com.sec.android.sdhms.xml" \
+        "$WORK_DIR/system/etc/permissions/privapp-permissions-com.sec.android.sdhms.xml"; do
+        if [ -f "$perm_file" ]; then
+            sed -i '/android.permission.ACTIVITY_RECOGNITION/d' "$perm_file" 2>/dev/null || true
+            sed -i '/android.permission.BODY_SENSORS/d' "$perm_file" 2>/dev/null || true
+        fi
+    done
+fi
+
 unset -f _debloat_target
