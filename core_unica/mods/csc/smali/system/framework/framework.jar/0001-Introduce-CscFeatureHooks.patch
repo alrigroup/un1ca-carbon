@@ -389,6 +389,24 @@ index 00000000..37d44bdc
 +
 +    invoke-virtual {v0, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 +
++    const-string v3, "CscFeature_Camera_CamcorderDoNotPauseMusic"
++
++    sget-object v4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
++
++    invoke-virtual {v0, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
++
++    const-string v3, "CscFeature_Camera_EnableCameraDuringCall"
++
++    invoke-virtual {v0, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
++
++    const-string v3, "CscFeature_SystemUI_SupportDataUsageViewOnQuickPanel"
++
++    invoke-virtual {v0, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
++
++    const-string v3, "CscFeature_Gallery_SupportAliveZoom"
++
++    invoke-virtual {v0, v3, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
++
 +    const-string v0, "CscFeature_Common_ConfigSvcProviderForUnknownNumber"
 +
 +    const-string v3, "whitepages,whitepages,off"
@@ -408,6 +426,12 @@ index 00000000..37d44bdc
 +    invoke-virtual {v1, v0, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 +
 +    const-string v0, "CscFeature_SmartManager_ConfigSubFeatures"
++
++    invoke-virtual {v1, v0, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
++
++    const-string v0, "CscFeature_Camera_DefaultQuality"
++
++    const-string v3, "superfine"
 +
 +    invoke-virtual {v1, v0, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 +
