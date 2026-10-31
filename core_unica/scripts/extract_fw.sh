@@ -122,7 +122,9 @@ EXTRACT_OS_PARTITIONS()
         mkdir -p "$FW_DIR/${MODEL}_${CSC}/$PARTITION"
         sudo umount "$FW_DIR/${MODEL}_${CSC}/$f" &> /dev/null
         if [[ "$(GET_IMAGE_FILE_SYSTEM "$FW_DIR/${MODEL}_${CSC}/$f")" == "erofs" ]]; then
-            EVAL "sudo env \"PATH=$PATH\" fuse.erofs \"$FW_DIR/${MODEL}_${CSC}/$f\" \"$TMP_DIR\"" || exit 1
+            local FUSE_BIN="fuse.erofs"
+            command -v "$FUSE_BIN" >/dev/null 2>&1 || FUSE_BIN="erofsfuse"
+            EVAL "sudo env \"PATH=$PATH\" $FUSE_BIN \"$FW_DIR/${MODEL}_${CSC}/$f\" \"$TMP_DIR\"" || exit 1
         else
             EVAL "sudo mount -o ro \"$FW_DIR/${MODEL}_${CSC}/$f\" \"$TMP_DIR\"" || exit 1
         fi
