@@ -75,7 +75,7 @@ DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxPushManager"
 DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxSandbox"
 DELETE_FROM_WORK_DIR "system" "system/priv-app/KnoxZtFramework"
 
-if [[ "$TARGET_OS_SINGLE_SYSTEM_IMAGE" == "qssi" ]]; then
+if [[ "$TARGET_OS_SINGLE_SYSTEM_IMAGE" == "qssi" ]] && [[ "$TARGET_CODENAME" != "dm"* ]]; then
     ADD_TO_WORK_DIR "$DONOR" "system" "system/bin/apexd" 0 2000 755 "u:object_r:apexd_exec:s0"
     ADD_TO_WORK_DIR "$DONOR" "system" "system/bin/gsid" 0 2000 755 "u:object_r:gsid_exec:s0"
     ADD_TO_WORK_DIR "$DONOR" "system" "system/lib/service.incremental.so" 0 0 644 "u:object_r:system_lib_file:s0"
