@@ -63,11 +63,23 @@ while IFS= read -r f; do
 
     LOG "- Repacking $BOOT_FILE/$(basename "$f")"
 
-    if [[ "$RAMDISK_FORMAT" == "gz" ]]; then
-        EVAL "mkbootfs \"$TMP_DIR/out/ramdisk_extracted\" | gzip > \"$f\""
-    elif [[ "$RAMDISK_FORMAT" == "lz4" ]]; then
-        EVAL "mkbootfs \"$TMP_DIR/out/ramdisk_extracted\" | lz4 -l -12 --favor-decSpeed > \"$f\""
+    local REPACK_CPIO="$TMP_DIR/out/repack.cpio"
+    if command -v mkbootfs >/dev/null 2>&1; then
+        EVAL "mkbootfs \"$TMP_DIR/out/ramdisk_extracted\" > \"$REPACK_CPIO\""
+    else
+        (cd "$TMP_DIR/out/ramdisk_extracted" && find . -mindepth 1 | LC_ALL=C sort | cpio --quiet -o -H newc) > "$REPACK_CPIO"
     fi
+
+    if [ ! -s "$REPACK_CPIO" ]; then
+        (cd "$TMP_DIR/out/ramdisk_extracted" && find . -mindepth 1 | LC_ALL=C sort | cpio --quiet -o -H newc) > "$REPACK_CPIO"
+    fi
+
+    if [[ "$RAMDISK_FORMAT" == "gz" ]]; then
+        EVAL "gzip < \"$REPACK_CPIO\" > \"$f\""
+    elif [[ "$RAMDISK_FORMAT" == "lz4" ]]; then
+        EVAL "lz4 -l -12 --favor-decSpeed < \"$REPACK_CPIO\" > \"$f\""
+    fi
+    rm -f "$REPACK_CPIO"
 
     EVAL "rm -rf \"$TMP_DIR/out/ramdisk_extracted\""
 done < <(find "$TMP_DIR/out" -type f -name "*ramdisk*" | LC_ALL=C sort)

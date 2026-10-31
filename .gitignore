@@ -57,6 +57,9 @@ security/keys/
 .DS_Store
 Thumbs.db
 
+# External tools and submodules
+external/signapk/
+
 # Claude 
 .claude/
 
