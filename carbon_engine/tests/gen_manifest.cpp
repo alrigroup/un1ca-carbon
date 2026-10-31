@@ -13,7 +13,7 @@ namespace fs = std::filesystem;
 int main() {
     fs::path project_root = "/home/alexsanderalri/Documentos/ALRIGROUP/CARBON_BUILDER";
     fs::path out_dir = project_root / "out";
-    fs::path zip_path = out_dir / "UN1CA_Carbon_IX_1.1_dm1q_GZIF.zip";
+    fs::path zip_path = out_dir / "UN1CA_Carbon_IX_1.3_dm1q_GZIF.zip";
 
     carbon::security::KeyManager km(project_root);
     auto key_res = km.DiscoverActiveKeys();

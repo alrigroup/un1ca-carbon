@@ -9,7 +9,7 @@
 # UN1CA Carbon (Release: IX • One UI 9.0 • Android 17 • SDK 37)
 
 export UN1CA_NAME="UN1CA Carbon"
-export NPL_VERSION="Carbon_IX-1.0"
+export NPL_VERSION="Carbon_IX-1.3"
 export NPL_BUILD_TYPE="Official"
 export NPL_CODENAME="Carbon"
 export NPL_MAINTAINER="ALRI Development (Lead: AlexsAR)"

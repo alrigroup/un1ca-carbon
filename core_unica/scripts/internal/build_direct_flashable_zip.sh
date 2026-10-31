@@ -183,7 +183,9 @@ GENERATE_OUTPUT_FILE()
     SUFFIX="$(GET_PROP "system" "ro.build.PDA")"
     SUFFIX="${SUFFIX: -4}"
 
-    FILE="$OUT_DIR/UN1CA_Carbon_IX_1.1_${DEVICE}_${SUFFIX}.zip"
+    local VER="${ROM_VERSION:-UN1CA_Carbon_IX_1.3}"
+    VER="$(cut -d "-" -f 1 <<< "$VER")"
+    FILE="$OUT_DIR/${VER}_${DEVICE}_${SUFFIX}.zip"
 
     echo "$FILE"
 }

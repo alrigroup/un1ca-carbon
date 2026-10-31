@@ -500,7 +500,7 @@ CarbonResult<void> PipelineOrchestrator::Stage8_AssemblePackage() {
     }
 
     if (final_zip_path_.empty()) {
-        final_zip_path_ = out_dir_ / ("UN1CA_Carbon_IX_1.1_" + config_.target_device + "_GZIF.zip");
+        final_zip_path_ = out_dir_ / ("UN1CA_Carbon_IX_1.3_" + config_.target_device + "_GZIF.zip");
     }
 
     // Compute SHA-256 of the flashable package
