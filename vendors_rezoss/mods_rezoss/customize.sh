@@ -777,6 +777,21 @@ LOG "- Patch AODService AOD stretch renderer gate"
 APPLY_PATCH "system" "system/priv-app/AODService_v80/AODService_v80.apk" \
     "$MODPATH/aodservice/AODService_v80.apk/0006-Allow-AOD-stretch-render-when-font-heights-exist.patch"
 
+# Bump AODService versionCode to prevent Galaxy Store update mismatch & install failure (Resolves Issue #1)
+AOD_DIR="$APKTOOL_DIR/system/priv-app/AODService_v80/AODService_v80.apk"
+if [ -d "$AOD_DIR" ]; then
+    LOG "- Bumping AODService versionCode to prevent Galaxy Store update prompt"
+    if [ -f "$AOD_DIR/apktool.yml" ]; then
+        sed -i -E "s/(versionCode:[[:space:]]*['\"]?)[0-9]+(['\"]?)/\1999999999\2/g" "$AOD_DIR/apktool.yml"
+        sed -i -E "s/(versionName:[[:space:]]*['\"]?)[^'\"]+(['\"]?)/\19.9.99\2/g" "$AOD_DIR/apktool.yml"
+    fi
+    if [ -f "$AOD_DIR/AndroidManifest.xml" ]; then
+        sed -i -E 's/android:versionCode="[0-9]+"/android:versionCode="999999999"/g' "$AOD_DIR/AndroidManifest.xml"
+        sed -i -E 's/android:versionName="[^"]+"/android:versionName="9.9.99"/g' "$AOD_DIR/AndroidManifest.xml"
+    fi
+fi
+unset AOD_DIR
+
 LOG "- Patch VisualCloudCore Galaxy Store model check"
 APPLY_PATCH "system" "system/app/VisualCloudCore/VisualCloudCore.apk" \
     "$MODPATH/visualcloudcore/VisualCloudCore.apk/0001-Use-S25-Ultra-model-for-stub-update-check.patch"

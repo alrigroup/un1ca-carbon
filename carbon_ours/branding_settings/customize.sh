@@ -99,6 +99,21 @@ if [ -f "$SP_DEFAULTS" ]; then
     sed -i 's/<string name="def_animator_duration_scale" translatable="false">1<\/string>/<string name="def_animator_duration_scale" translatable="false">0.85<\/string>/g' "$SP_DEFAULTS"
 fi
 
+# Ensure AODService versionCode is bumped to prevent failing Galaxy Store update (Resolves Issue #1)
+AOD_DIR="$APKTOOL_DIR/system/priv-app/AODService_v80/AODService_v80.apk"
+if [ -d "$AOD_DIR" ]; then
+    LOG "- Verifying AODService versionCode in branding_settings"
+    if [ -f "$AOD_DIR/apktool.yml" ]; then
+        sed -i -E "s/(versionCode:[[:space:]]*['\"]?)[0-9]+(['\"]?)/\1999999999\2/g" "$AOD_DIR/apktool.yml"
+        sed -i -E "s/(versionName:[[:space:]]*['\"]?)[^'\"]+(['\"]?)/\19.9.99\2/g" "$AOD_DIR/apktool.yml"
+    fi
+    if [ -f "$AOD_DIR/AndroidManifest.xml" ]; then
+        sed -i -E 's/android:versionCode="[0-9]+"/android:versionCode="999999999"/g' "$AOD_DIR/AndroidManifest.xml"
+        sed -i -E 's/android:versionName="[^"]+"/android:versionName="9.9.99"/g' "$AOD_DIR/AndroidManifest.xml"
+    fi
+fi
+unset AOD_DIR
+
 # Expose UN1CA-selected SamsungSans source-bank fonts through Samsung's normal
 # Display > Font list and apply path.
 LOG "- Patching Samsung font list integration in /system/system/priv-app/SecSettings.apk"
