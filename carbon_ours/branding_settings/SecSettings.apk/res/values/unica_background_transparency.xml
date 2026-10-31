@@ -3,7 +3,7 @@
     <string name="unica_settings_bg_transparency_enabled_title">Transparent Settings background</string>
     <string name="unica_settings_bg_transparency_enabled_summary">Use the slider below to control Settings background transparency.</string>
     <string name="unica_settings_bg_transparency_title">Transparency level</string>
-    <string name="unica_settings_bg_transparency_summary">Min starts at 70&#37; transparency. Middle is 85&#37;. Max makes the Settings background fully transparent.</string>
+    <string name="unica_settings_bg_transparency_summary" formatted="false">Min starts at 70&#37; transparency. Middle is 85&#37;. Max makes the Settings background fully transparent.</string>
     <string name="unica_settings_bg_transparency_low">Min</string>
     <string name="unica_settings_bg_transparency_high">Max</string>
 </resources>
