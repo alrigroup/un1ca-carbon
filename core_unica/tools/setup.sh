@@ -267,8 +267,8 @@ unset -f _signapk_ok
 
 _is_real_elf() { file "$1" 2>/dev/null | grep -q "ELF"; }
 if ! _is_real_elf "$BIN_DIR/fsck.erofs" || ! _is_real_elf "$BIN_DIR/mkfs.erofs"; then
-  echo "[>] Downloading erofs-utils..."
-  _EROFS_URL="$(curl -fsSL "https://api.github.com/repos/sekaiacg/erofs-tools/releases/latest" | \
+  echo "[>] Downloading erofs-utils (pinned v1.8.4-250126 with AOSP --block-list-file)..."
+  _EROFS_URL="$(curl -fsSL "https://api.github.com/repos/sekaiacg/erofs-tools/releases/tags/v1.8.4-250126" | \
     python3 -c "import sys,json; r=json.load(sys.stdin); \
     [print(a['browser_download_url']) for a in r.get('assets',[]) \
     if 'Linux_x86_64' in a['name']]" 2>/dev/null | head -1)"
