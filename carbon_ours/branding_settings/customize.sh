@@ -157,9 +157,8 @@ if [ -d "$PARADIGM_RAW" ]; then
     cp -a "$PARADIGM_RAW/"* "$APKTOOL_DIR/system/priv-app/SecSettingsIntelligence/SecSettingsIntelligence.apk/res/raw/"
 fi
 SMALI_PATCH "system" "system/priv-app/SecSettingsIntelligence/SecSettingsIntelligence.apk" \
-    "smali_classes2/com/samsung/android/settings/intelligence/Rune.smali" "replaceall" \
-    "const-string v1, \"\"" \
-    "const-string v1, \"400\"" \
+    "smali_classes2/com/samsung/android/settings/intelligence/Rune.smali" "return" \
+    "getSupportSemanticSearch()Z" "true" \
     > /dev/null
 SET_FLOATING_FEATURE_CONFIG "SEC_FLOATING_FEATURE_MSCH_SUPPORT_NLSEARCH" "TRUE"
 

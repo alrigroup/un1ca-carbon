@@ -296,7 +296,7 @@ new file mode 100644
 index 00000000..37d44bdc
 --- /dev/null
 +++ b/smali_classes6/io/mesalabs/unica/CscFeatureHooks.smali
-@@ -0,0 +1,380 @@
+@@ -0,0 +1,410 @@
 +.class public final Lio/mesalabs/unica/CscFeatureHooks;
 +.super Ljava/lang/Object;
 +.source "CscFeatureHooks.java"
