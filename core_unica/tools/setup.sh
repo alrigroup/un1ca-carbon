@@ -215,7 +215,10 @@ fi
 if ! command -v zipalign &>/dev/null && [ ! -f "$BIN_DIR/zipalign" ]; then
   echo "[>] Downloading zipalign..."
   curl -fsSL "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/main/tools/linux/bin/zipalign?format=TEXT" | base64 -d > "$BIN_DIR/zipalign"
-  curl -fsSL "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/main/tools/linux/lib64/libc++.so?format=TEXT" | base64 -d > "$LIB_DIR/libc++.so" || true
+  mkdir -p "$LIB_DIR" "$OUT_TOOLS/lib64"
+  curl -fsSL "https://android.googlesource.com/platform/prebuilts/sdk/+/refs/heads/main/tools/linux/lib64/libc++.so?format=TEXT" | base64 -d > "$OUT_TOOLS/lib64/libc++.so" || true
+  cp -a "$OUT_TOOLS/lib64/libc++.so" "$LIB_DIR/libc++.so" || true
+  cp -a "$OUT_TOOLS/lib64/libc++.so" "$BIN_DIR/libc++.so" || true
   chmod +x "$BIN_DIR/zipalign"
   echo "[✓] zipalign installed"
 fi
