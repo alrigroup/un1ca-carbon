@@ -132,7 +132,7 @@ BUILD_IMAGE_MKFS()
 }
 
 # https://android.googlesource.com/platform/build/+/refs/tags/android-15.0.0_r1/tools/releasetools/verity_utils.py#224
-CALCULATE_AVB_MAX_IMAGE_SIZE() { avbtool add_hashtree_footer --partition_size "$1" --calc_max_image_size; }
+CALCULATE_AVB_MAX_IMAGE_SIZE() { avbtool add_hashtree_footer --partition_size "$1" --calc_max_image_size --do_not_generate_fec; }
 
 # https://android.googlesource.com/platform/build/+/refs/tags/android-15.0.0_r1/tools/releasetools/verity_utils.py#157
 CALCULATE_AVB_MIN_PARTITION_SIZE()
@@ -225,6 +225,7 @@ GET_AVBTOOL_CMD()
     CMD+="--partition_name \"$PARTITION\" "
     CMD+="--hash_algorithm \"sha256\" "
     CMD+="--algorithm \"SHA256_RSA4096\" "
+    CMD+="--do_not_generate_fec "
     CMD+="--key \"$SRC_DIR/security/avb/testkey_rsa4096.pem\""
 
     echo "$CMD"
