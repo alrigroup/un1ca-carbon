@@ -909,6 +909,8 @@ local AICORE_DECODED_SSGEN_LIB="$AICORE_DECODED_APK/assets/ssgen/libs"
 local AICORE_SNAP_QNN_LIB="$AICORE_DECODED_LIB/libsnap_qnn.so"
 local AICORE_SNAP_QNN_PATCHED_LIB="$TMP_DIR/aicore_libsnap_qnn.so"
 local AICORE_S23U_FW_DIR="$FW_DIR/SM-S918B_EUX"
+[ -d "$AICORE_S23U_FW_DIR" ] || AICORE_S23U_FW_DIR="$FW_DIR/${TARGET_FIRMWARE%/*}"
+[ -d "$AICORE_S23U_FW_DIR" ] || AICORE_S23U_FW_DIR="$FW_DIR/SM-S911B_OXM"
 local AICORE_QNN_MISSING=0
 if [ ! -d "$AICORE_DECODED_LIB" ] || [ ! -d "$AICORE_DECODED_SSGEN_LIB" ]; then
     LOGW "SamsungAiCore.apk decoded QNN directories are missing, skipping QNN patch"
@@ -969,6 +971,8 @@ local AIOS_SSN_PATCHED_LIB="$TMP_DIR/aios_libssneural_vndk.so"
 local AIOS_SNAP_QNN_LIB="$AIOS_DECODED_LIB/libsnap_qnn.so"
 local AIOS_SNAP_QNN_PATCHED_LIB="$TMP_DIR/aios_libsnap_qnn.so"
 local S23U_FW_DIR="$FW_DIR/SM-S918B_EUX"
+[ -d "$S23U_FW_DIR" ] || S23U_FW_DIR="$FW_DIR/${TARGET_FIRMWARE%/*}"
+[ -d "$S23U_FW_DIR" ] || S23U_FW_DIR="$FW_DIR/SM-S911B_OXM"
 local AIOS_QNN_MISSING=0
 if [ ! -d "$AIOS_DECODED_LIB" ] || [ ! -d "$AIOS_DECODED_SSGEN_LIB" ]; then
     LOGW "AIOSKernelService.apk decoded QNN directories are missing, skipping QNN patch"
