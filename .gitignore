@@ -59,6 +59,8 @@ Thumbs.db
 
 # External tools and submodules
 external/signapk/
+external/img2sdat/
+external/erofs-utils/
 
 # Claude 
 .claude/
