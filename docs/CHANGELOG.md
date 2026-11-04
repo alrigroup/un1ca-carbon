@@ -4,10 +4,10 @@ This document catalogs the complete technical changelog and historical evolution
 
 ---
 
-## 🚀 UN1CA Carbon IX v1.3 (Active Development • Branch dev-carbon-ix-v1.3)
+## 🚀 UN1CA Carbon IX v1.2 (Active Development • Branch dev-carbon-ix-v1.2)
 **Target Base:** `S911BXXUAGZIF` (Official Samsung Production Base • Firmware Bit A)  
 **Security Patch:** 2026-10-05 • Android 17 (One UI 9.0 Stable • SDK 37)  
-**Branch:** `dev-carbon-ix-v1.3`
+**Branch:** `dev-carbon-ix-v1.2`
 
 ### 1. 🎛️ User Interface & System Visuals
 * **Display Red Dot Badge Removal (#2, #5):** Purged unsupported Privacy Display emulation overlays from SecSettings, SystemUI, and services.jar. Enforced `SEC_FLOATING_FEATURE_LCD_CONFIG_PRIVACY_DISPLAY=0`, permanently extinguishing the unremovable red notification badge on the Display Settings menu.

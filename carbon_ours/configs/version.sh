@@ -9,7 +9,7 @@
 # UN1CA Carbon (Release: IX • One UI 9.0 • Android 17 • SDK 37)
 
 export UN1CA_NAME="UN1CA Carbon"
-export NPL_VERSION="Carbon_IX-1.3"
+export NPL_VERSION="Carbon_IX-1.2"
 export NPL_BUILD_TYPE="Official"
 export NPL_CODENAME="Carbon"
 export NPL_MAINTAINER="ALRI Development (Lead: AlexsAR)"
@@ -21,7 +21,7 @@ export DEBLOAT_TELEMETRY="${DEBLOAT_TELEMETRY:-true}"
 
 # Only the below variable(s) need to be changed!
 VERSION_MAJOR=1
-VERSION_MINOR=3
+VERSION_MINOR=2
 VERSION_PATCH=0
 
 # The below variables will be generated automatically
