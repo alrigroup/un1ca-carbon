@@ -1,4 +1,4 @@
 id=kernel_engine
 name=GoRhanHee Kernel Engine
 author=GoRhanHee, ALRI Development
-description=Integrates GoRhanHee Kernel (Linux 5.15.216 with KernelSU-Next & SUSFS), matching vendor_boot ramdisk modules, and DLKM partitions for Galaxy S23 (dm1q).
+description=Integrates GoRhanHee Kernel (Linux 5.15.220 with KernelSU-Next & SUSFS), matching vendor_boot ramdisk modules, and DLKM partitions for Galaxy S23 (dm1q).

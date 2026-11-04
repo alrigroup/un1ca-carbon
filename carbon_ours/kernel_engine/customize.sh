@@ -15,7 +15,7 @@ if [ "$TARGET_CODENAME" != "dm1q" ]; then
     return 0 2>/dev/null || exit 0
 fi
 
-LOG_STEP_IN "- Integrating GoRhanHee Kernel (Linux 5.15.216 + KernelSU-Next + SUSFS) for Galaxy S23 (dm1q)"
+LOG_STEP_IN "- Integrating GoRhanHee Kernel (Linux 5.15.220 + KernelSU-Next + SUSFS) for Galaxy S23 (dm1q)"
 
 GORHANHEE_DIR="$SRC_DIR/carbon_ours/kernel_gorhanhee"
 [ -d "$GORHANHEE_DIR" ] || ABORT "GoRhanHee kernel directory not found: $GORHANHEE_DIR"
@@ -62,7 +62,7 @@ trap 'rm -rf "$ENGINE_TMP"' EXIT INT TERM
 # =============================================================================
 TARGET_BOOT="$WORK_DIR/kernel/boot.img"
 if [ -f "$TARGET_BOOT" ]; then
-    LOG "- Repacking boot.img with GoRhanHee Linux 5.15.216 kernel Image..."
+    LOG "- Repacking boot.img with GoRhanHee Linux 5.15.220 kernel Image..."
     BOOT_TMP="$ENGINE_TMP/boot"
     mkdir -p "$BOOT_TMP"
     cp -f "$TARGET_BOOT" "$BOOT_TMP/boot.img"

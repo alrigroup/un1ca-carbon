@@ -16,6 +16,8 @@ This document catalogs the complete technical changelog and historical evolution
 * **Stock One UI Boot Animation (#6):** Added authentic Samsung One UI animated shining wordmark and pulse loop (`bootanimation_samsung.zip` at 1080x2340 30fps) as a third selectable option in Carbon Settings alongside UN1CA Carbon and Android 17 AOSP.
 * **Enhanced 120Hz Animation Physics (0.85x Multiplier):** Fine-tuned system default window, transition, and animator duration scales to `0.85x` in `WindowManagerService` and `SettingsProvider`, delivering instant touch responsiveness while preserving smooth One UI physics.
 
+* **GoRhanHee Kernel Upstream v2026.11.02 (#13):** Upstreamed Linux kernel from 5.15.216 to **5.15.220** for Snapdragon 8 Gen 2 (`sm8550`/`kalama`), updated KernelSU-Next driver to build 33452, updated SuSFS to v2.3.0, integrated NoMount v2.2.0 driver, and synchronized ramdisk modules and `vendor_dlkm`/`system_dlkm` partition images.
+
 ### 2. 📷 Camera & Media Subsystem
 * **4K 120 FPS Recording (#3):** Unlocked `BACK_CAMCORDER_RESOLUTION_FEATURE_MAP_3840X2160_120FPS` for Pro Video and Slow Motion modes on the Snapdragon 8 Gen 2 platform.
 * **Continuous Background Audio (#3):** Enabled `CscFeature_Camera_CamcorderDoNotPauseMusic = TRUE`, allowing video recording without interrupting music playback from Spotify, Apple Music, or YouTube Music.
