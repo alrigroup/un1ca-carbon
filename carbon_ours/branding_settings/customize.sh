@@ -293,7 +293,6 @@ for f in \
     "io/mesalabs/unica/settings/ui/UISettingsFragment" \
     "io/mesalabs/unica/settings/spoof/CameraFeatureFragment" \
     "io/mesalabs/unica/settings/font/FontSelectorFragment" \
-    "io/mesalabs/unica/settings/qwen/QwenSettingsFragment" \
     "io/mesalabs/unica/settings/extra/ScpmAllowlistFragment"; do
     ADD_UNICA_SETTINGS_SEARCH_INDEX_DATA_PROVIDER "$f" || return 1
 done
