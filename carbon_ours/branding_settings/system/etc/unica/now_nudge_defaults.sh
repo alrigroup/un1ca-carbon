@@ -58,6 +58,8 @@ settings put system "$STATE_KEY" 1 >/dev/null 2>&1
 settings put global sss_enabled 1 >/dev/null 2>&1
 settings put global now_nudge_setting 1 >/dev/null 2>&1
 settings put global now_nudge_enabled 1 >/dev/null 2>&1
+settings put global nowbrief_enabled 1 >/dev/null 2>&1
+settings put global smart_suggestions_enabled 1 >/dev/null 2>&1
 settings put global app_widget_brief_type 1 >/dev/null 2>&1
 settings put global brief_now_bar_need_to_unlock 0 >/dev/null 2>&1
 settings put global show_brief_without_unlock 1 >/dev/null 2>&1
@@ -66,6 +68,20 @@ settings put system suggested_replies_state 1 >/dev/null 2>&1
 settings put system key_now_bar_com_samsung_android_smartsuggestions 1 >/dev/null 2>&1
 settings put system now_bar_aod_enabled 1 >/dev/null 2>&1
 settings put secure content_capture_enabled 1 >/dev/null 2>&1
+settings put secure suggested_replies 1 >/dev/null 2>&1
+settings put secure noti_intelligence_first_time 1 >/dev/null 2>&1
+settings put secure noti_intelligence_priority_content 1 >/dev/null 2>&1
+settings put system noti_intelligence_priority_conversation 1 >/dev/null 2>&1
+settings put secure noti_intelligence_summarize_content 1 >/dev/null 2>&1
+
+# Sincronizar permissão do Writing Assistant para todos os idiomas do Teclado Samsung
+for json_file in "/data/user/0/com.samsung.android.honeyboard/files/selected.json" "/data/user_de/0/com.samsung.android.honeyboard/files/selected.json"; do
+    if [ -f "$json_file" ] && ! grep -q '"writing_assistant"' "$json_file" 2>/dev/null; then
+        sed -i 's/"auto_spacing"/"auto_spacing","writing_assistant"/g' "$json_file" 2>/dev/null
+        restorecon "$json_file" 2>/dev/null
+        log_msg "injected writing_assistant into $json_file"
+    fi
+done
 
 set_appop "com.samsung.android.smartsuggestions" "GET_USAGE_STATS" "allow"
 

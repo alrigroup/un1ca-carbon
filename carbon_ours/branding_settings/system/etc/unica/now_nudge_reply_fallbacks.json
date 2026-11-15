@@ -18,7 +18,35 @@
       "e ai",
       "e aí",
       "tudo bem",
-      "td bem"
+      "td bem",
+      "hola",
+      "buenos dias",
+      "buenas tardes",
+      "buenas",
+      "que tal",
+      "como estas",
+      "你好",
+      "您好",
+      "哈喽",
+      "嗨",
+      "在吗",
+      "最近怎么样",
+      "hallo",
+      "guten tag",
+      "grüß gott",
+      "servus",
+      "wie gehts",
+      "ciao",
+      "buongiorno",
+      "buonasera",
+      "salve",
+      "come va",
+      "come stai",
+      "こんにちは",
+      "もしもし",
+      "お疲れ様",
+      "どうも",
+      "やあ"
     ],
     "morning": [
       "good morning",
@@ -26,7 +54,18 @@
       "selamat pagi",
       "pagi",
       "bon matin",
-      "bom dia"
+      "bom dia",
+      "buenos dias",
+      "buen dia",
+      "早上好",
+      "早安",
+      "早",
+      "guten morgen",
+      "morgen",
+      "buongiorno",
+      "buon giorno",
+      "おはようございます",
+      "おはよう"
     ],
     "evening": [
       "good evening",
@@ -36,7 +75,19 @@
       "bonsoir",
       "bonne nuit",
       "boa noite",
-      "boa tarde"
+      "boa tarde",
+      "buenas noches",
+      "que descanses",
+      "晚上好",
+      "晚安",
+      "guten abend",
+      "gute nacht",
+      "buonasera",
+      "buona notte",
+      "buonanotte",
+      "こんばんは",
+      "おやすみなさい",
+      "おやすみ"
     ],
     "thanks": [
       "thank",
@@ -50,7 +101,26 @@
       "valeu",
       "vlw",
       "agradeco",
-      "agradeço"
+      "agradeço",
+      "gracias",
+      "muchas gracias",
+      "mil gracias",
+      "te agradezco",
+      "谢谢",
+      "多谢",
+      "非常感谢",
+      "谢啦",
+      "danke",
+      "vielen dank",
+      "dankeschön",
+      "herzlichen dank",
+      "grazie",
+      "grazie mille",
+      "ti ringrazio",
+      "ありがとう",
+      "ありがとうございます",
+      "どうもありがとう",
+      "感謝"
     ],
     "apology": [
       "sorry",
@@ -62,7 +132,25 @@
       "desculpe",
       "perdao",
       "perdão",
-      "foi mal"
+      "foi mal",
+      "perdon",
+      "perdón",
+      "disculpa",
+      "disculpe",
+      "lo siento",
+      "对不起",
+      "抱歉",
+      "不好意思",
+      "entschuldigung",
+      "tut mir leid",
+      "verzeihung",
+      "scusa",
+      "scusami",
+      "mi dispiace",
+      "perdono",
+      "ごめんなさい",
+      "すみません",
+      "申し訳ありません"
     ],
     "confirm": [
       "confirm",
@@ -75,7 +163,26 @@
       "confirmado",
       "confirma",
       "com certeza",
-      "fechado"
+      "fechado",
+      "confirmo",
+      "de acuerdo",
+      "trato hecho",
+      "确认",
+      "确定",
+      "没问题",
+      "收到",
+      "bestätigen",
+      "bestätigt",
+      "abgemacht",
+      "einverstanden",
+      "confermo",
+      "confermato",
+      "d accordo",
+      "perfetto",
+      "確認しました",
+      "了解です",
+      "承知しました",
+      "オッケー"
     ],
     "approval": [
       "is it ok",
@@ -90,7 +197,27 @@
       "concordo",
       "ta bom",
       "tá bom",
-      "por mim ok"
+      "por mim ok",
+      "esta bien",
+      "está bien",
+      "me parece bien",
+      "vale",
+      "dale",
+      "好的",
+      "可以",
+      "行",
+      "没问题",
+      "in ordnung",
+      "passt",
+      "alles klar",
+      "geht klar",
+      "va bene",
+      "d accordo",
+      "perfetto",
+      "ottimo",
+      "いいですよ",
+      "大丈夫です",
+      "わかりました"
     ],
     "decline": [
       "cannot",
@@ -105,7 +232,24 @@
       "nao consigo",
       "não consigo",
       "nem da",
-      "nem dá"
+      "nem dá",
+      "no puedo",
+      "imposible",
+      "no llego",
+      "se me complica",
+      "不行",
+      "去不了",
+      "没办法",
+      "恐怕不行",
+      "kann nicht",
+      "schaffe es nicht",
+      "leider nicht",
+      "non posso",
+      "non riesco",
+      "purtroppo no",
+      "行けません",
+      "無理です",
+      "都合が悪い"
     ],
     "time": [
       "tomorrow",
@@ -127,7 +271,34 @@
       "as ",
       "às ",
       "ja ja",
-      "já já"
+      "já já",
+      "mañana",
+      "manana",
+      "hoy",
+      "esta noche",
+      "mas tarde",
+      "a las ",
+      "明天",
+      "今天",
+      "今晚",
+      "待会儿",
+      "等一下",
+      "在 ",
+      "morgen",
+      "heute",
+      "heute abend",
+      "später",
+      "um ",
+      "domani",
+      "oggi",
+      "stasera",
+      "piu tardi",
+      "alle ",
+      "明日",
+      "今日",
+      "今夜",
+      "後で",
+      "時に"
     ],
     "schedule": [
       "schedule",
@@ -175,7 +346,26 @@
       "cheguei",
       "a caminho",
       "to chegando",
-      "tô chegando"
+      "tô chegando",
+      "llegando",
+      "estoy llegando",
+      "ya llegue",
+      "en camino",
+      "快到了",
+      "在路上",
+      "已经到了",
+      "马上到",
+      "unterwegs",
+      "komme gleich",
+      "bin da",
+      "gleich da",
+      "sto arrivando",
+      "in arrivo",
+      "sono qui",
+      "arrivato",
+      "向かっています",
+      "もうすぐ着きます",
+      "着きました"
     ],
     "meeting": [
       "meeting",
@@ -185,7 +375,21 @@
       "reunion",
       "reuniao",
       "reunião",
-      "meet"
+      "meet",
+      "reunión",
+      "llamada",
+      "junta",
+      "会议",
+      "开会",
+      "讨论",
+      "besprechung",
+      "konferenz",
+      "riunione",
+      "incontro",
+      "call",
+      "会議",
+      "ミーティング",
+      "打ち合わせ"
     ],
     "meeting_link": [
       "zoom",
@@ -208,7 +412,25 @@
       "onde c ta",
       "qual local",
       "localizacao",
-      "localização"
+      "localização",
+      "donde estas",
+      "dónde estás",
+      "ubicacion",
+      "ubicación",
+      "donde queda",
+      "你在哪",
+      "位置",
+      "地址",
+      "在哪里",
+      "wo bist du",
+      "standort",
+      "adresse",
+      "dove sei",
+      "posizione",
+      "indirizzo",
+      "どこにいますか",
+      "場所",
+      "住所"
     ],
     "address": [
       "address",
@@ -6803,6 +7025,5391 @@
         "I will check the quick reply.",
         "Please send more details about the quick reply.",
         "Let us handle the quick reply later."
+      ]
+    },
+    "es": {
+      "default": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "greeting": [
+        "¡Hola! ¿Cómo estás?",
+        "¡Hola! ¿Todo bien?",
+        "¡Buenas!"
+      ],
+      "morning": [
+        "¡Buenos días!",
+        "¡Buenos días! ¿Qué tal?",
+        "¡Buen día!"
+      ],
+      "evening": [
+        "¡Buenas noches!",
+        "¡Buenas noches, descansa!",
+        "¡Hasta mañana!"
+      ],
+      "thanks": [
+        "¡De nada!",
+        "¡Un placer!",
+        "¡No hay de qué!"
+      ],
+      "apology": [
+        "No te preocupes.",
+        "Tranquilo, no pasa nada.",
+        "Sin problema."
+      ],
+      "confirm": [
+        "¡Confirmado!",
+        "Trato hecho.",
+        "Perfecto, todo listo."
+      ],
+      "approval": [
+        "Por mí está perfecto.",
+        "Me parece muy bien.",
+        "¡Dale, adelante!"
+      ],
+      "decline": [
+        "Lo siento, hoy no puedo.",
+        "Me queda muy difícil.",
+        "No creo llegar esta vez."
+      ],
+      "time": [
+        "Perfecto a esa hora.",
+        "Nos vemos en ese horario.",
+        "Combinado."
+      ],
+      "schedule": [
+        "Anotado en la agenda.",
+        "Reviso mis horarios y te aviso.",
+        "Todo listo."
+      ],
+      "appointment": [
+        "Cita confirmada.",
+        "Allí estaré puntual.",
+        "Perfecto."
+      ],
+      "delay": [
+        "Tranquilo, voy con calma.",
+        "Sin prisa, te espero.",
+        "Avisame cuando estés cerca."
+      ],
+      "arriving": [
+        "¡Ya estoy aquí!",
+        "Llego en un momento.",
+        "¡Nos vemos ya!"
+      ],
+      "meeting": [
+        "Ya estoy entrando al enlace.",
+        "Confirmada mi asistencia a la reunión.",
+        "Nos vemos en la llamada."
+      ],
+      "meeting_link": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "location": [
+        "Te paso mi ubicación.",
+        "Voy en camino hacia allá.",
+        "Llego en breve."
+      ],
+      "address": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "commute": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "traffic": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "weather": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "reminder": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "calendar": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "alarm": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "shopping": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "shopping_list": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "delivery": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "payment": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "bank": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "money_request": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "food": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "coffee": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "lunch": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "dinner": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "work": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "deadline": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "status_update": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "documents": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "school": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "child_school": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "home": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "chores": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "family": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "friend": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "health": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "medicine": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "tired": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "busy": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "urgent": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "help": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "invite": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "follow_up": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "send_file": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "photo": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "screenshot": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "call": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "voice_note": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "email": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "contact": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "travel": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "vacation": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "flight": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "hotel": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "train": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "parking": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "lost": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "mistake": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "praise": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "support": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "congratulations": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "birthday": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "condolence": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "weekend": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "movie": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "gaming": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "sports": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "repair": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "battery": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "charger": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "internet": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "password": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "safety": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "emergency": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "maybe_later": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "permission": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "opinion": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "decision": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "availability": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "language": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "translation": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "quiet": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "pickup": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "dropoff": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "reservation": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "music": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "breakfast": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "snack": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "dessert": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "restaurant": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "cooking": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "recipe": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "pharmacy": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "dentist": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "hospital": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "health_insurance": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "workout": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "walking": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "rest": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "sleep": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "headache": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "fever": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "allergy": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "vaccine": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "taxi": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "bus": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "metro": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "car_rental": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "fuel": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "toll": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "ride_hailing": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "passport": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "visa": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "luggage": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "map": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "travel_checkin": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "travel_checkout": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "boarding": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "customs": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "client": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "manager": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "coworker": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "interview": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "contract": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "invoice": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "receipt": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "refund": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "discount": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "subscription": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "bill": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "salary": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "leave_request": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "shift": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "report": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "presentation": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "project": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "task": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "bug_report": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "deployment": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "login_issue": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "rent": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "landlord": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "electricity": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "water_supply": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "gas_bill": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "home_maintenance": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "trash": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "kitchen": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "bathroom": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "bedroom": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "keys": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "door": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "window": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "party": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "wedding": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "ceremony": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "concert": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "ticket": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "museum": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "park": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "picnic": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "new_year": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "neighbor": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "guest": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "host": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "rsvp": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "gift": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "lost_phone": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "wallet": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "id_card": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "police": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "security_check": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "lab_result": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "cancel_plan": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "reschedule_plan": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "childcare": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "parent": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "sibling": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "partner": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "mood_happy": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "mood_sad": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "mood_angry": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "mood_worried": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "mood_stressed": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "mood_excited": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "mood_confused": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "study": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "exam": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "lesson": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "book": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "library": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "photo_album": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "camera_issue": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "storage_full": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "phone_update": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "backup_data": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "restore_data": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "data_plan": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "roaming": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "video_call": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "missed_call": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "voicemail": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "quiet_hours": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "meeting_notes": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "quick_reply": [
+        "Entendido.",
+        "De acuerdo.",
+        "Vale, perfecto."
+      ],
+      "question": [
+        "Sí, claro.",
+        "Déjame revisar y te respondo.",
+        "No estoy seguro ahora."
+      ]
+    },
+    "zh": {
+      "default": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "greeting": [
+        "你好！最近怎么样？",
+        "嗨！你好吗？",
+        "哈喽！"
+      ],
+      "morning": [
+        "早上好！",
+        "早安！今天加油。",
+        "早！"
+      ],
+      "evening": [
+        "晚安！",
+        "晚上好，早点休息！",
+        "明天见！"
+      ],
+      "thanks": [
+        "不客气！",
+        "没事，别客气！",
+        "很乐意帮忙！"
+      ],
+      "apology": [
+        "没关系，别放在心上。",
+        "没事，不用在意。",
+        "完全理解。"
+      ],
+      "confirm": [
+        "确认了！",
+        "好的，就这么定了。",
+        "没问题。"
+      ],
+      "approval": [
+        "可以，我觉得很好。",
+        "行，按你说的办。",
+        "赞成！"
+      ],
+      "decline": [
+        "不好意思，我今天去不了。",
+        "实在抱歉，抽不开身。",
+        "这次恐怕不行。"
+      ],
+      "time": [
+        "那个时间完全可以。",
+        "好的，到时见。",
+        "定在这个时间吧。"
+      ],
+      "schedule": [
+        "已经记在日程上了。",
+        "我确认一下时间后告诉你。",
+        "好的。"
+      ],
+      "appointment": [
+        "确认按时到达。",
+        "已经预约好了。",
+        "没问题！"
+      ],
+      "delay": [
+        "别着急，慢慢来。",
+        "没事，我等你。",
+        "到了发个消息给我。"
+      ],
+      "arriving": [
+        "我已经到了！",
+        "马上就到。",
+        "一会儿见！"
+      ],
+      "meeting": [
+        "正在进入会议链接。",
+        "收到，准时开会。",
+        "线上见。"
+      ],
+      "meeting_link": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "location": [
+        "我发定位给你。",
+        "正在去那里的路上。",
+        "稍后发你地址。"
+      ],
+      "address": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "commute": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "traffic": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "weather": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "reminder": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "calendar": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "alarm": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "shopping": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "shopping_list": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "delivery": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "payment": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "bank": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "money_request": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "food": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "coffee": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "lunch": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "dinner": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "work": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "deadline": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "status_update": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "documents": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "school": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "child_school": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "home": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "chores": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "family": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "friend": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "health": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "medicine": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "tired": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "busy": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "urgent": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "help": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "invite": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "follow_up": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "send_file": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "photo": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "screenshot": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "call": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "voice_note": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "email": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "contact": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "travel": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "vacation": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "flight": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "hotel": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "train": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "parking": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "lost": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "mistake": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "praise": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "support": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "congratulations": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "birthday": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "condolence": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "weekend": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "movie": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "gaming": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "sports": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "repair": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "battery": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "charger": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "internet": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "password": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "safety": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "emergency": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "maybe_later": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "permission": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "opinion": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "decision": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "availability": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "language": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "translation": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "quiet": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "pickup": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "dropoff": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "reservation": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "music": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "breakfast": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "snack": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "dessert": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "restaurant": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "cooking": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "recipe": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "pharmacy": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "dentist": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "hospital": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "health_insurance": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "workout": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "walking": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "rest": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "sleep": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "headache": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "fever": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "allergy": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "vaccine": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "taxi": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "bus": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "metro": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "car_rental": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "fuel": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "toll": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "ride_hailing": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "passport": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "visa": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "luggage": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "map": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "travel_checkin": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "travel_checkout": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "boarding": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "customs": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "client": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "manager": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "coworker": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "interview": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "contract": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "invoice": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "receipt": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "refund": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "discount": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "subscription": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "bill": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "salary": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "leave_request": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "shift": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "report": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "presentation": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "project": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "task": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "bug_report": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "deployment": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "login_issue": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "rent": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "landlord": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "electricity": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "water_supply": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "gas_bill": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "home_maintenance": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "trash": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "kitchen": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "bathroom": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "bedroom": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "keys": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "door": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "window": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "party": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "wedding": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "ceremony": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "concert": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "ticket": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "museum": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "park": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "picnic": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "new_year": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "neighbor": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "guest": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "host": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "rsvp": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "gift": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "lost_phone": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "wallet": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "id_card": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "police": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "security_check": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "lab_result": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "cancel_plan": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "reschedule_plan": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "childcare": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "parent": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "sibling": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "partner": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "mood_happy": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "mood_sad": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "mood_angry": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "mood_worried": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "mood_stressed": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "mood_excited": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "mood_confused": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "study": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "exam": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "lesson": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "book": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "library": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "photo_album": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "camera_issue": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "storage_full": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "phone_update": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "backup_data": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "restore_data": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "data_plan": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "roaming": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "video_call": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "missed_call": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "voicemail": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "quiet_hours": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "meeting_notes": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "quick_reply": [
+        "好的，明白了。",
+        "收到，没问题。",
+        "好的。"
+      ],
+      "question": [
+        "是的，当然可以。",
+        "我查一下马上答复你。",
+        "现在还不太确定。"
+      ]
+    },
+    "de": {
+      "default": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "greeting": [
+        "Hallo! Wie geht es dir?",
+        "Hi! Alles gut bei dir?",
+        "Guten Tag!"
+      ],
+      "morning": [
+        "Guten Morgen!",
+        "Morgen! Wünsche einen schönen Tag.",
+        "Guten Morgen, alles gut?"
+      ],
+      "evening": [
+        "Guten Abend!",
+        "Gute Nacht, erhol dich gut!",
+        "Bis morgen!"
+      ],
+      "thanks": [
+        "Gern geschehen!",
+        "Kein Problem!",
+        "Nichts zu danken!"
+      ],
+      "apology": [
+        "Kein Problem!",
+        "Alles gut, mach dir keine Sorgen.",
+        "Macht überhaupt nichts."
+      ],
+      "confirm": [
+        "Bestätigt!",
+        "Abgemacht, so machen wir es.",
+        "Alles klar."
+      ],
+      "approval": [
+        "Passt super für mich.",
+        "Bin einverstanden.",
+        "Klingt hervorragend!"
+      ],
+      "decline": [
+        "Leider schaffe ich es heute nicht.",
+        "Das klappt bei mir diesmal leider nicht.",
+        "Tut mir leid, geht nicht."
+      ],
+      "time": [
+        "Die Uhrzeit passt mir gut.",
+        "Perfekt, dann bis dann.",
+        "Geht klar."
+      ],
+      "schedule": [
+        "Habe ich im Kalender eingetragen.",
+        "Ich prüfe kurz meine Termine und gebe Bescheid.",
+        "Alles notiert."
+      ],
+      "appointment": [
+        "Termin ist bestätigt.",
+        "Ich werde pünktlich sein.",
+        "Prima!"
+      ],
+      "delay": [
+        "Kein Stress, nimm dir Zeit!",
+        "Ganz ruhig, ich warte hier auf dich.",
+        "Gib einfach Bescheid, wenn du da bist."
+      ],
+      "arriving": [
+        "Ich bin schon da!",
+        "Komme gleich an.",
+        "Bis gleich!"
+      ],
+      "meeting": [
+        "Ich wähle mich gerade in den Link ein.",
+        "Bestätigt für das Meeting.",
+        "Wir sprechen gleich im Call."
+      ],
+      "meeting_link": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "location": [
+        "Ich sende dir gleich meinen Standort.",
+        "Bin schon auf dem Weg.",
+        "Komme gleich."
+      ],
+      "address": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "commute": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "traffic": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "weather": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "reminder": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "calendar": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "alarm": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "shopping": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "shopping_list": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "delivery": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "payment": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "bank": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "money_request": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "food": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "coffee": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "lunch": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "dinner": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "work": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "deadline": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "status_update": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "documents": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "school": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "child_school": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "home": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "chores": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "family": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "friend": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "health": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "medicine": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "tired": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "busy": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "urgent": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "help": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "invite": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "follow_up": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "send_file": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "photo": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "screenshot": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "call": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "voice_note": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "email": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "contact": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "travel": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "vacation": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "flight": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "hotel": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "train": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "parking": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "lost": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "mistake": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "praise": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "support": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "congratulations": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "birthday": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "condolence": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "weekend": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "movie": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "gaming": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "sports": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "repair": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "battery": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "charger": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "internet": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "password": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "safety": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "emergency": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "maybe_later": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "permission": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "opinion": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "decision": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "availability": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "language": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "translation": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "quiet": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "pickup": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "dropoff": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "reservation": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "music": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "breakfast": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "snack": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "dessert": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "restaurant": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "cooking": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "recipe": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "pharmacy": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "dentist": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "hospital": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "health_insurance": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "workout": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "walking": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "rest": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "sleep": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "headache": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "fever": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "allergy": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "vaccine": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "taxi": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "bus": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "metro": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "car_rental": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "fuel": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "toll": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "ride_hailing": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "passport": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "visa": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "luggage": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "map": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "travel_checkin": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "travel_checkout": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "boarding": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "customs": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "client": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "manager": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "coworker": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "interview": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "contract": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "invoice": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "receipt": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "refund": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "discount": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "subscription": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "bill": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "salary": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "leave_request": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "shift": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "report": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "presentation": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "project": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "task": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "bug_report": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "deployment": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "login_issue": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "rent": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "landlord": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "electricity": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "water_supply": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "gas_bill": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "home_maintenance": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "trash": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "kitchen": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "bathroom": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "bedroom": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "keys": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "door": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "window": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "party": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "wedding": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "ceremony": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "concert": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "ticket": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "museum": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "park": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "picnic": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "new_year": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "neighbor": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "guest": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "host": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "rsvp": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "gift": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "lost_phone": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "wallet": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "id_card": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "police": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "security_check": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "lab_result": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "cancel_plan": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "reschedule_plan": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "childcare": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "parent": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "sibling": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "partner": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "mood_happy": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "mood_sad": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "mood_angry": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "mood_worried": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "mood_stressed": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "mood_excited": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "mood_confused": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "study": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "exam": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "lesson": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "book": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "library": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "photo_album": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "camera_issue": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "storage_full": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "phone_update": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "backup_data": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "restore_data": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "data_plan": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "roaming": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "video_call": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "missed_call": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "voicemail": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "quiet_hours": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "meeting_notes": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "quick_reply": [
+        "Alles klar.",
+        "Verstanden.",
+        "Geht in Ordnung."
+      ],
+      "question": [
+        "Ja, sicher.",
+        "Ich überprüfe das kurz und antworte dir gleich.",
+        "Bin mir gerade nicht ganz sicher."
+      ]
+    },
+    "it": {
+      "default": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "greeting": [
+        "Ciao! Come stai?",
+        "Ciao! Tutto bene?",
+        "Salve!"
+      ],
+      "morning": [
+        "Buongiorno!",
+        "Buon giorno, tutto bene?",
+        "Buona giornata!"
+      ],
+      "evening": [
+        "Buonasera!",
+        "Buona notte, riposati!",
+        "A domani!"
+      ],
+      "thanks": [
+        "Prego!",
+        "Di nulla, figurati!",
+        "È un piacere!"
+      ],
+      "apology": [
+        "Nessun problema!",
+        "Tranquillo, non preoccuparti.",
+        "Non c è problema."
+      ],
+      "confirm": [
+        "Confermato!",
+        "Affare fatto.",
+        "Tutto pronto, ci siamo."
+      ],
+      "approval": [
+        "Per me va benissimo.",
+        "D accordissimo.",
+        "Ottima idea!"
+      ],
+      "decline": [
+        "Mi dispiace, oggi proprio non posso.",
+        "Oggi per me è difficile.",
+        "Purtroppo non riesco stavolta."
+      ],
+      "time": [
+        "Perfetto per quell orario.",
+        "Ci vediamo a quell ora.",
+        "D accordo."
+      ],
+      "schedule": [
+        "Segnato in agenda.",
+        "Controllo i miei impegni e ti faccio sapere.",
+        "Tutto a posto."
+      ],
+      "appointment": [
+        "Presenza confermata.",
+        "Sarò puntuale.",
+        "Perfetto!"
+      ],
+      "delay": [
+        "Fai con calma, niente fretta!",
+        "Tranquillo, ti aspetto qui.",
+        "Avvisami quando arrivi."
+      ],
+      "arriving": [
+        "Sono già qui!",
+        "Sto arrivando tra poco.",
+        "A tra pochissimo!"
+      ],
+      "meeting": [
+        "Sto entrando nel link della riunione.",
+        "Confermata la mia presenza alla call.",
+        "Ci sentiamo tra poco."
+      ],
+      "meeting_link": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "location": [
+        "Ti invio la mia posizione.",
+        "Sono in strada verso di te.",
+        "Arrivo subito."
+      ],
+      "address": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "commute": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "traffic": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "weather": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "reminder": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "calendar": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "alarm": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "shopping": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "shopping_list": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "delivery": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "payment": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "bank": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "money_request": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "food": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "coffee": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "lunch": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "dinner": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "work": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "deadline": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "status_update": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "documents": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "school": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "child_school": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "home": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "chores": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "family": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "friend": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "health": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "medicine": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "tired": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "busy": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "urgent": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "help": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "invite": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "follow_up": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "send_file": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "photo": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "screenshot": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "call": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "voice_note": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "email": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "contact": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "travel": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "vacation": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "flight": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "hotel": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "train": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "parking": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "lost": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "mistake": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "praise": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "support": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "congratulations": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "birthday": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "condolence": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "weekend": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "movie": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "gaming": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "sports": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "repair": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "battery": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "charger": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "internet": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "password": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "safety": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "emergency": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "maybe_later": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "permission": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "opinion": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "decision": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "availability": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "language": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "translation": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "quiet": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "pickup": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "dropoff": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "reservation": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "music": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "breakfast": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "snack": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "dessert": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "restaurant": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "cooking": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "recipe": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "pharmacy": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "dentist": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "hospital": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "health_insurance": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "workout": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "walking": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "rest": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "sleep": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "headache": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "fever": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "allergy": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "vaccine": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "taxi": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "bus": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "metro": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "car_rental": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "fuel": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "toll": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "ride_hailing": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "passport": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "visa": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "luggage": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "map": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "travel_checkin": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "travel_checkout": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "boarding": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "customs": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "client": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "manager": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "coworker": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "interview": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "contract": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "invoice": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "receipt": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "refund": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "discount": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "subscription": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "bill": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "salary": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "leave_request": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "shift": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "report": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "presentation": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "project": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "task": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "bug_report": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "deployment": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "login_issue": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "rent": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "landlord": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "electricity": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "water_supply": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "gas_bill": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "home_maintenance": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "trash": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "kitchen": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "bathroom": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "bedroom": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "keys": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "door": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "window": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "party": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "wedding": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "ceremony": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "concert": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "ticket": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "museum": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "park": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "picnic": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "new_year": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "neighbor": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "guest": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "host": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "rsvp": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "gift": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "lost_phone": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "wallet": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "id_card": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "police": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "security_check": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "lab_result": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "cancel_plan": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "reschedule_plan": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "childcare": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "parent": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "sibling": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "partner": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "mood_happy": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "mood_sad": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "mood_angry": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "mood_worried": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "mood_stressed": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "mood_excited": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "mood_confused": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "study": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "exam": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "lesson": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "book": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "library": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "photo_album": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "camera_issue": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "storage_full": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "phone_update": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "backup_data": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "restore_data": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "data_plan": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "roaming": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "video_call": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "missed_call": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "voicemail": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "quiet_hours": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "meeting_notes": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "quick_reply": [
+        "Ricevuto.",
+        "D accordo.",
+        "Va benissimo."
+      ],
+      "question": [
+        "Sì, certamente.",
+        "Controllo subito e ti rispondo.",
+        "Non ne sono del tutto sicuro al momento."
+      ]
+    },
+    "ja": {
+      "default": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "greeting": [
+        "こんにちは！元気ですか？",
+        "お疲れ様です！",
+        "どうも！"
+      ],
+      "morning": [
+        "おはようございます！",
+        "おはよう！良い一日を。",
+        "おはようございます。"
+      ],
+      "evening": [
+        "こんばんは！",
+        "おやすみなさい、ゆっくり休んでね。",
+        "また明日！"
+      ],
+      "thanks": [
+        "どういたしまして！",
+        "お役に立てて良かったです。",
+        "いえいえ！"
+      ],
+      "apology": [
+        "大丈夫ですよ、お気になさらず。",
+        "問題ありません。",
+        "気にしないでくださいね。"
+      ],
+      "confirm": [
+        "確認いたしました！",
+        "それで確定しましょう。",
+        "了解しました。"
+      ],
+      "approval": [
+        "それで大丈夫です。",
+        "賛成です！",
+        "問題ありません。"
+      ],
+      "decline": [
+        "申し訳ありませんが、今日は都合がつきません。",
+        "あいにく今回は難しそうです。",
+        "すみません、行けません。"
+      ],
+      "time": [
+        "その時間で大丈夫です。",
+        "承知しました、その時間に会いましょう。",
+        "了解です。"
+      ],
+      "schedule": [
+        "カレンダーに登録しました。",
+        "予定を確認してすぐ連絡します。",
+        "メモしました。"
+      ],
+      "appointment": [
+        "予約・予定を確認しました。",
+        "時間通りにお伺いします。",
+        "よろしくお願いします。"
+      ],
+      "delay": [
+        "急がなくて大丈夫ですよ、気をつけて！",
+        "ゆっくり来てください、待っています。",
+        "着いたら教えてくださいね。"
+      ],
+      "arriving": [
+        "もう到着しました！",
+        "すぐ着きます。",
+        "もうすぐ会えますね！"
+      ],
+      "meeting": [
+        "ミーティングのリンクに入室しています。",
+        "会議の件、了解しました。",
+        "通話でお話ししましょう。"
+      ],
+      "meeting_link": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "location": [
+        "現在地を共有しますね。",
+        "そちらに向かっています。",
+        "すぐ到着します。"
+      ],
+      "address": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "commute": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "traffic": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "weather": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "reminder": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "calendar": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "alarm": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "shopping": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "shopping_list": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "delivery": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "payment": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "bank": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "money_request": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "food": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "coffee": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "lunch": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "dinner": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "work": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "deadline": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "status_update": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "documents": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "school": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "child_school": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "home": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "chores": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "family": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "friend": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "health": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "medicine": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "tired": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "busy": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "urgent": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "help": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "invite": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "follow_up": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "send_file": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "photo": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "screenshot": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "call": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "voice_note": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "email": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "contact": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "travel": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "vacation": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "flight": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "hotel": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "train": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "parking": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "lost": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "mistake": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "praise": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "support": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "congratulations": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "birthday": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "condolence": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "weekend": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "movie": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "gaming": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "sports": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "repair": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "battery": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "charger": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "internet": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "password": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "safety": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "emergency": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "maybe_later": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "permission": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "opinion": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "decision": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "availability": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "language": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "translation": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "quiet": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "pickup": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "dropoff": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "reservation": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "music": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "breakfast": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "snack": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "dessert": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "restaurant": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "cooking": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "recipe": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "pharmacy": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "dentist": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "hospital": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "health_insurance": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "workout": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "walking": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "rest": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "sleep": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "headache": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "fever": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "allergy": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "vaccine": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "taxi": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "bus": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "metro": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "car_rental": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "fuel": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "toll": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "ride_hailing": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "passport": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "visa": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "luggage": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "map": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "travel_checkin": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "travel_checkout": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "boarding": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "customs": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "client": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "manager": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "coworker": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "interview": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "contract": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "invoice": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "receipt": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "refund": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "discount": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "subscription": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "bill": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "salary": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "leave_request": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "shift": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "report": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "presentation": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "project": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "task": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "bug_report": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "deployment": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "login_issue": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "rent": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "landlord": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "electricity": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "water_supply": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "gas_bill": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "home_maintenance": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "trash": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "kitchen": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "bathroom": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "bedroom": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "keys": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "door": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "window": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "party": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "wedding": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "ceremony": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "concert": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "ticket": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "museum": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "park": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "picnic": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "new_year": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "neighbor": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "guest": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "host": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "rsvp": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "gift": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "lost_phone": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "wallet": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "id_card": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "police": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "security_check": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "lab_result": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "cancel_plan": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "reschedule_plan": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "childcare": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "parent": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "sibling": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "partner": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "mood_happy": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "mood_sad": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "mood_angry": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "mood_worried": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "mood_stressed": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "mood_excited": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "mood_confused": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "study": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "exam": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "lesson": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "book": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "library": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "photo_album": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "camera_issue": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "storage_full": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "phone_update": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "backup_data": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "restore_data": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "data_plan": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "roaming": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "video_call": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "missed_call": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "voicemail": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "quiet_hours": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "meeting_notes": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "quick_reply": [
+        "承知しました。",
+        "了解です。",
+        "わかりました。"
+      ],
+      "question": [
+        "はい、もちろんです。",
+        "確認してすぐに返答します。",
+        "今はちょっと分かりかねます。"
       ]
     }
   }
