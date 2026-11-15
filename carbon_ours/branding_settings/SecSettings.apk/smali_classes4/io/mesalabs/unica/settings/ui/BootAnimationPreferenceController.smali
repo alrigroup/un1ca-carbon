@@ -47,7 +47,7 @@
 
     aput-object v2, v1, v3
 
-    const-string v2, "Samsung One UI (Stock)"
+    const-string v2, "Samsung Boot Animation"
 
     const/4 v4, 0x1
 
