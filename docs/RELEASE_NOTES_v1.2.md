@@ -25,4 +25,4 @@
 | **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip`** | Full Signed Flashable Package (8.2 GB) | 🔗 **[Direct Google Drive ZIP](https://drive.google.com/file/d/1unr3tUWE6bpBaLCgJuGhLvDMZ6jZrZIg/view?usp=sharing)** |
 | **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip.sha256`** | Official SHA-256 Checksum Record | 🔐 **[Download Checksum](https://drive.google.com/file/d/1e1zTivkk9xtvbuwanhQcJC3dgkRWge4C/view?usp=drive_link)** |
 
-* **Package Checksum SHA-256:** `0b0e8be870def2752af66d0ad73b760bd03b8faa2fa0ec652cb043879e188fab`
+* **Package Checksum SHA-256:** `00b5a22e857aa3971276561cea781f2d3ca6a1b1ff8bea42078c97a891ed4195`
