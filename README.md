@@ -13,7 +13,7 @@
 <br><br>
 
 **Next-Generation One UI 9 Custom ROM for Samsung Galaxy S23 Series**  
-*Release Version: **IX v1.3 (In Development)** (One UI 9.0 Stable • Android 17 • SDK 37)*  
+*Release Version: **IX v1.3 (In Development)** (One UI 9.0 Stable • Android 17 • SDK 37)*
 *Engineered, Ported & Stabilized for Galaxy S23 Base (`SM-S911B` / `SM-S9110` / `dm1q`)*  
 *Official Base Firmware: `S911BXXUAGZIF` (SW REV: A • Binary A)*  
 *Cryptographic Signature: `OFFICIAL_CARBON_KEYS` (RSA 4096-bit ALRI GROUP)*

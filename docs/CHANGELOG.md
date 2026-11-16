@@ -4,6 +4,7 @@ This document catalogs the complete technical changelog and historical evolution
 
 ---
 
+<<<<<<< HEAD
 ## 🚀 UN1CA Carbon IX v1.3 (Active Development • Branch dev-carbon-ix-v1.3)
 **Target Base:** `S911BXXUAGZIF` (Official Samsung Production Base • Firmware Bit A)  
 **Security Patch:** 2026-10-05 • Android 17 (One UI 9.0 Stable • SDK 37)  

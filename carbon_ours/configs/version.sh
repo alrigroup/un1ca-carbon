@@ -27,7 +27,11 @@ VERSION_PATCH=0
 # The below variables will be generated automatically
 #
 # Version name
-ROM_VERSION="UN1CA_Carbon_IX_${VERSION_MAJOR}.${VERSION_MINOR}"
+if [ "$VERSION_PATCH" -gt 0 ]; then
+    ROM_VERSION="UN1CA_Carbon_IX_${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH}"
+else
+    ROM_VERSION="UN1CA_Carbon_IX_${VERSION_MAJOR}.${VERSION_MINOR}"
+fi
 # Append "+" to version name if commits have been added since the last tag
 LATEST_TAG="$(git describe --tags --abbrev=0 2> /dev/null)"
 if [ "$LATEST_TAG" ]; then
