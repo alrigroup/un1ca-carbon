@@ -272,7 +272,9 @@
     <local name="SUPPORT_HIGH_RESOLUTION_SHUTTER_VI" value="true"/>
 
     <local name="SUPPORT_QUICK_VIEW_SCALE_VI" value="true"/>
+    <local name="SUPPORT_LOG_VIDEO" value="true"/>
     <local name="SUPPORT_HLG" value="true"/>
+    <local name="SUPPORT_PREVIEW_LUT" value="true"/>
 
     <!-- camera assistant features -->
     <local name="SUPPORT_CAMERA_ASSISTANT" value="true"/>
