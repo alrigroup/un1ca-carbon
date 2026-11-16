@@ -24,7 +24,7 @@
 
 | Artifact / File | Description | Official Download Link |
 | :--- | :--- | :--- |
-| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip`** | Full Signed Flashable Package (8.17 GB) | ⏳ *Finalizing Google Drive Upload... (Available in Folder)* |
+| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip`** | Full Signed Flashable Package (8.17 GB) | 🔗 **[Direct Google Drive ZIP](https://drive.google.com/file/d/1KnW7g478gRYDkx1WvqnmXkuVrsfneZu1/view?usp=drive_link)** |
 | **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip.sha256`** | Official Cryptographic Checksum Record | 🔐 **[Download Checksum](https://drive.google.com/file/d/18GLMOqYLCVfMsub8x4080obK8ipUIRGi/view?usp=sharing)** |
 | **`build_manifest.json`** | Enterprise v2 Cryptographic Manifest (SLSA/SBOM) | 📄 **[Download Manifest](https://drive.google.com/file/d/1ppg48iD7Ngf8xYgd9-um1UGTrSA8VpTQ/view?usp=sharing)** |
 | **`build_forensic_audit.log`** | Human-Readable Forensic Audit Report | 📋 **[Download Audit Log](https://drive.google.com/file/d/1gaMCxMNhpV131IKHqwj2eMLaO_DajzyH/view?usp=sharing)** |
