@@ -24,14 +24,15 @@
 
 | Artifact / File | Description | Official Download Link |
 | :--- | :--- | :--- |
-| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip`** | Full Signed Flashable Package (8.2 GB) | ⏳ *COMPILING... (Cooking in Carbon Engine C++20)* |
-| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip.sha256`** | Official Cryptographic Checksum Record | ⏳ *CALCULATING SHA-256... (Cooking...)* |
-| **`build_manifest.json`** | Enterprise v2 Cryptographic Manifest (SLSA/SBOM) | ⏳ *GENERATING SLSA v2 MANIFEST...* |
-| **`build_forensic_audit.log`** | Human-Readable Forensic Audit Report | ⏳ *GENERATING FORENSIC REPORT...* |
-| **`build_engine.log`** | Carbon Engine C++20 Full Execution Log | ⏳ *STREAMING COMPILER LOGS...* |
+| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip`** | Full Signed Flashable Package (8.17 GB) | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip.sha256`** | Official Cryptographic Checksum Record | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+| **`build_manifest.json`** | Enterprise v2 Cryptographic Manifest (SLSA/SBOM) | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+| **`build_forensic_audit.log`** | Human-Readable Forensic Audit Report | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+| **`build_engine.log`** | Carbon Engine C++20 Full Execution Log | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
 | **Complete Google Drive Folder** | All artifacts, logs, and checksums in one directory | 📂 **[Access Google Drive Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
 
-* **Package Checksum SHA-256:** `CALCULATING... (Will populate immediately upon build finish)`
+* **Package Checksum SHA-256:** `4044a3e208d5f51c47e14690394d9915ad86c6b861ece21b3131e37db5682a0f`
+* **Composite Build Fingerprint:** `96f80451112dc2c7df50615b6043e4ec847416f58f6e89368a7e35e225c95117`
 * **Official Google Drive Release Directory:**  
   👉 **[https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)**
 
