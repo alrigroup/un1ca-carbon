@@ -1795,6 +1795,24 @@
       "patch": "carbon_ours/branding_settings/smali/system/framework/framework.jar/0005-Add-Galaxy-Store-device-spoof-hook.patch"
     },
     {
+      "id": "patch_framework_guard_audiotask",
+      "category": "Camera & Audio Subsystem",
+      "description": "Guard AudioTask AudioRecord against UnsupportedOperationException on concurrent capture",
+      "credit": "UN1CA Carbon Original Engineering by ALRI Development (AlexsAR & AlexsanderALRI)",
+      "action": "apk.patch",
+      "apk": "system/framework/framework.jar",
+      "patch": "carbon_ours/branding_settings/smali/system/framework/framework.jar/0006-Guard-AudioTask-AudioRecord-concurrent-capture.patch"
+    },
+    {
+      "id": "patch_services_guard_null_privacy_display",
+      "category": "Display & Window Manager",
+      "description": "Guard null Privacy Display controller in WindowManagerService to prevent NPE on dm1q",
+      "credit": "UN1CA Carbon Original Engineering by ALRI Development (AlexsAR & AlexsanderALRI)",
+      "action": "apk.patch",
+      "apk": "system/framework/services.jar",
+      "patch": "vendors_rezoss/mods_rezoss/smali/system/framework/services.jar/0001-Guard-null-Privacy-Display-controller.patch"
+    },
+    {
       "id": "patch_services_allow_disabling_secure_windows",
       "category": "Carbon Services Core",
       "description": "Allow disabling secure windows (unrestricted screenshots)",

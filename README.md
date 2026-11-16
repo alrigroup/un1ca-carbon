@@ -67,6 +67,7 @@ Built from official Samsung firmware, UN1CA Carbon combines enterprise security 
 | **Target Package Filename** | `UN1CA_Carbon_IX_1.3_dm1q_GZIF.zip` |
 | **Development Branch** | `dev-carbon-ix-v1.3` |
 | **Official Release Folder**| 📂 **[Browse Official Google Drive Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+| **Current Stable Release** | 📋 **[UN1CA Carbon IX v1.2.1 Hotfix Notes](docs/RELEASE_NOTES_v1.2.1.md)** |
 | **Previous Stable Release** | 📋 **[UN1CA Carbon IX v1.2 Notes](docs/RELEASE_NOTES_v1.2.md)** |
 | **Full Release Notes (v1.3)** | 📋 **[Read v1.3 Development Notes](docs/RELEASE_NOTES_v1.3.md)** |
 

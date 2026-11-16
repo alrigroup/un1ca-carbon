@@ -15,6 +15,22 @@ This document catalogs the complete technical changelog and historical evolution
 
 ---
 
+## 🚀 UN1CA Carbon IX v1.2.1 (Official Hotfix Release)
+**Target Base:** `S911BXXUAGZIF` (Official Samsung Production Base • Firmware Bit A)  
+**Security Patch:** 2026-10-05 • Android 17 (One UI 9.0 Stable • SDK 37)  
+**Branch:** `carbon-ix-v1.2.1`  
+**Lead Architect:** Alexsander "AlexsAR" ALRI (`alexsanderalri@alrigroup.com`)
+
+### 1. 🎛️ SystemUI & WindowManager Null-Safety (Hotfix)
+* **Resolved Control Menu Empty State & Edit Button UI Crash:** Restored null-pointer guard in `WindowManagerService` (`services.jar`) for `mPrivacyDisplayController`. If the physical privacy display controller is null (as on `dm1q`/S23 hardware), `getPrivacyDisplayCustomAppList(I)` returns an empty `ArrayList` instead of throwing `NullPointerException`, `requestPrivacyDisplayEnable` restores Binder identity safely, and `setAppPolicy` returns early.
+* **Eliminated Android Rescue Party Reboot Loops:** Fixed the recurring startup bootloop where repeated SystemUI crashes triggered the system watchdog and "Serious software issue detected" panic notification.
+* **Preserved Zero-Red-Dot Integrity:** Ensured Display Settings menu remains 100% free of persistent red notification badges (`SEC_FLOATING_FEATURE_LCD_CONFIG_PRIVACY_DISPLAY=0`).
+
+### 2. 📷 Camera & Background Audio Stabilization (Hotfix)
+* **Guarded AudioTask Against UnsupportedOperationException:** Wrapped `AudioRecord$Builder.build()` and state verification in `com.samsung.android.speech.AudioTask` (`framework.jar`) with a general exception handler. If background music playback (Spotify, Apple Music, YouTube Music) is active and the Qualcomm audio hardware rejects concurrent microphone capture, the camera voice-command module gracefully degrades without crashing `com.sec.android.app.camera`. When no background music is playing, voice control commands operate normally.
+
+---
+
 ## 🚀 UN1CA Carbon IX v1.2 (Official Production Release)
 **Target Base:** `S911BXXUAGZIF` (Official Samsung Production Base • Firmware Bit A)  
 **Security Patch:** 2026-10-05 • Android 17 (One UI 9.0 Stable • SDK 37)  
