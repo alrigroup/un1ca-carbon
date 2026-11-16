@@ -24,5 +24,8 @@
 | :--- | :--- | :--- |
 | **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip`** | Full Signed Flashable Package (8.2 GB) | 🔗 **[Direct Google Drive ZIP](https://drive.google.com/file/d/1unr3tUWE6bpBaLCgJuGhLvDMZ6jZrZIg/view?usp=sharing)** |
 | **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip.sha256`** | Official SHA-256 Checksum Record | 🔐 **[Download Checksum](https://drive.google.com/file/d/1e1zTivkk9xtvbuwanhQcJC3dgkRWge4C/view?usp=drive_link)** |
+| **`build_manifest.json`** | Enterprise v2 Cryptographic Manifest (SLSA/SBOM) | 📄 **[Download Manifest](https://drive.google.com/file/d/1VmotBUTXgiWKGe2sXhAjlvFt2h0uvor5/view?usp=drive_link)** |
+| **`build_forensic_audit.log`** | Human-Readable Forensic Audit Report | 📋 **[Download Audit Log](https://drive.google.com/file/d/18iXDiZsRi5Nsx2k1D7B6FuEFEiNy0J4Y/view?usp=drive_link)** |
+| **`build_engine.log`** | Complete Compiler & Orchestrator Execution Log | 📜 **[Download Build Log](https://drive.google.com/file/d/1unr3tUWE6bpBaLCgJuGhLvDMZ6jZrZIg/view?usp=sharing)** |
 
 * **Package Checksum SHA-256:** `f646e22ba39aefbcb5afca4b1d097fb087172424c59a478aa0e20a7287ce9345`
