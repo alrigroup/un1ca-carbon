@@ -70,9 +70,9 @@
 | **`build_manifest.json`** | Enterprise v2 Cryptographic Manifest (SLSA/SBOM) | 📄 **[Download Manifest](https://drive.google.com/file/d/1-JALqcI3iiUQVqLEdDrgChesqdcfhvx5/view?usp=drive_link)** |
 | **`build_forensic_audit.log`** | Human-Readable Forensic Audit Report | 📋 **[Download Audit Log](https://drive.google.com/file/d/1zvbfVKi9p4Ppc1ap83I0oOqPk7JhmGsJ/view?usp=drive_link)** |
 | **`build_engine.log`** | Carbon Engine C++20 Full Execution Log | 📜 **[Download Build Log](https://drive.google.com/file/d/1IPwI0OHhI2HifWGz-hWp8flmhtXz1agb/view?usp=drive_link)** |
-| **Complete Google Drive Folder** | All artifacts, logs, and checksums in one directory | 📂 **[Access Google Drive Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+| **Complete Google Drive Folder** | All artifacts, logs, and checksums in one directory | 📂 **[Access Google Drive Folder](https://drive.google.com/drive/folders/1lWvasfMYxzV-fEZ3UvhUvL9PKS4u7G5J?usp=drive_link)** |
 
 * **Package Checksum SHA-256:** `6c5298303896cccb3eabf9676d67fb8bbed584703d9ae4dfb774ca0b8c45ead3`
 * **Composite Build Fingerprint:** `c509ad61707e5b2efa0bbdbd7f783a33bad5108b06aeed0e5596688969df4a7a`
 * **Official Google Drive Release Directory:**  
-  👉 **[https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)**
+  👉 **[https://drive.google.com/drive/folders/1lWvasfMYxzV-fEZ3UvhUvL9PKS4u7G5J?usp=drive_link](https://drive.google.com/drive/folders/1lWvasfMYxzV-fEZ3UvhUvL9PKS4u7G5J?usp=drive_link)**
