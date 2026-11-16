@@ -18,6 +18,9 @@ SMALI_PATCH "system" "system/framework/framework.jar" \
     '    invoke-virtual {p0, p3}, Landroid/app/Application;->attach(Landroid/content/Context;)V\n\n    invoke-static {p3}, Lio/mesalabs/unica/SamsungPropsHooks;->init(Landroid/content/Context;)V' \
     > /dev/null
 
+APPLY_PATCH "system" "system/framework/framework.jar" \
+    "$MODPATH/smali/system/framework/framework.jar/0006-Guard-AudioTask-AudioRecord-concurrent-capture.patch"
+
 DECODE_APK "system" "system/priv-app/SecSettings/SecSettings.apk"
 
 # SoftwareUpdateUtils no longer exposes isOTAUpgradeAllowed(Context) on One UI 9.

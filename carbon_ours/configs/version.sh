@@ -9,7 +9,7 @@
 # UN1CA Carbon (Release: IX • One UI 9.0 • Android 17 • SDK 37)
 
 export UN1CA_NAME="UN1CA Carbon"
-export NPL_VERSION="Carbon_IX-1.2"
+export NPL_VERSION="Carbon_IX-1.2.1"
 export NPL_BUILD_TYPE="Official"
 export NPL_CODENAME="Carbon"
 export NPL_MAINTAINER="ALRI Development (Lead: AlexsAR)"
@@ -22,12 +22,16 @@ export DEBLOAT_TELEMETRY="${DEBLOAT_TELEMETRY:-true}"
 # Only the below variable(s) need to be changed!
 VERSION_MAJOR=1
 VERSION_MINOR=2
-VERSION_PATCH=0
+VERSION_PATCH=1
 
 # The below variables will be generated automatically
 #
 # Version name
-ROM_VERSION="UN1CA_Carbon_IX_${VERSION_MAJOR}.${VERSION_MINOR}"
+if [ "$VERSION_PATCH" -gt 0 ]; then
+    ROM_VERSION="UN1CA_Carbon_IX_${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH}"
+else
+    ROM_VERSION="UN1CA_Carbon_IX_${VERSION_MAJOR}.${VERSION_MINOR}"
+fi
 # Append "+" to version name if commits have been added since the last tag
 LATEST_TAG="$(git describe --tags --abbrev=0 2> /dev/null)"
 if [ "$LATEST_TAG" ]; then

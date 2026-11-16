@@ -13,7 +13,7 @@
 <br><br>
 
 **Next-Generation One UI 9 Custom ROM for Samsung Galaxy S23 Series**  
-*Release Version: **IX v1.2** (One UI 9.0 Stable • Android 17 • SDK 37)*  
+*Release Version: **IX v1.2.1 (Hotfix)** (One UI 9.0 Stable • Android 17 • SDK 37)*  
 *Engineered, Ported & Stabilized for Galaxy S23 Base (`SM-S911B` / `SM-S9110` / `dm1q`)*  
 *Official Base Firmware: `S911BXXUAGZIF` (SW REV: A • Binary A)*  
 *Cryptographic Signature: `OFFICIAL_CARBON_KEYS` (RSA 4096-bit ALRI GROUP)*
@@ -56,7 +56,7 @@ Built from official Samsung firmware, UN1CA Carbon combines enterprise security 
 
 ## 📥 Downloads & Release Package
 
-### Current Stable: UN1CA Carbon IX v1.2 (`dm1q` Universal)
+### Current Stable: UN1CA Carbon IX v1.2.1 (`dm1q` Universal Hotfix)
 
 | Parameter | Specification |
 | :--- | :--- |
@@ -64,11 +64,9 @@ Built from official Samsung firmware, UN1CA Carbon combines enterprise security 
 | **OS Version** | One UI 9.0 Stable (Android 17 • SDK 37) |
 | **Required Firmware** | **FIRMWARE BIT A** (`SW REV: A` / Binary A) |
 | **Base Firmware** | `S911BXXUAGZIF` (Official Samsung Production Base) |
-| **Package Filename** | `UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip` (8.17 GB) |
-| **SHA-256 Checksum** | `4044a3e208d5f51c47e14690394d9915ad86c6b861ece21b3131e37db5682a0f` |
-| **Direct Download** | 🔗 **[Download via Google Drive (Official Mirror)](https://drive.google.com/file/d/1KnW7g478gRYDkx1WvqnmXkuVrsfneZu1/view?usp=drive_link)** |
+| **Package Filename** | `UN1CA_Carbon_IX_1.2.1_dm1q_GZIF.zip` |
 | **Official Release Folder**| 📂 **[Browse Official Google Drive Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
-| **Full Release Notes** | 📋 **[Read v1.2 Release Notes](docs/RELEASE_NOTES_v1.2.md)** |
+| **Full Release Notes** | 📋 **[Read v1.2.1 Release Notes](docs/RELEASE_NOTES_v1.2.1.md)** |
 
 ---
 

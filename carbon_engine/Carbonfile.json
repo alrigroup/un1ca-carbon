@@ -1235,7 +1235,7 @@
       "action": "prop.set",
       "file": "${WORK_DIR}/system/system/build.prop",
       "key": "ro.build.display.id",
-      "value": "UN1CA Carbon IX v1.2 (GZIF)"
+      "value": "UN1CA Carbon IX v1.2.1 (GZIF)"
     },
     {
       "id": "prop_rom_version",
@@ -1245,7 +1245,7 @@
       "action": "prop.set",
       "file": "${WORK_DIR}/system/system/build.prop",
       "key": "ro.unica.version",
-      "value": "UN1CA Carbon IX 1.2"
+      "value": "UN1CA Carbon IX 1.2.1"
     },
     {
       "id": "prop_vulkan_default",
@@ -1793,6 +1793,24 @@
       "action": "apk.patch",
       "apk": "system/framework/framework.jar",
       "patch": "carbon_ours/branding_settings/smali/system/framework/framework.jar/0005-Add-Galaxy-Store-device-spoof-hook.patch"
+    },
+    {
+      "id": "patch_framework_guard_audiotask",
+      "category": "Camera & Audio Subsystem",
+      "description": "Guard AudioTask AudioRecord against UnsupportedOperationException on concurrent capture",
+      "credit": "UN1CA Carbon Original Engineering by ALRI Development (AlexsAR & AlexsanderALRI)",
+      "action": "apk.patch",
+      "apk": "system/framework/framework.jar",
+      "patch": "carbon_ours/branding_settings/smali/system/framework/framework.jar/0006-Guard-AudioTask-AudioRecord-concurrent-capture.patch"
+    },
+    {
+      "id": "patch_services_guard_null_privacy_display",
+      "category": "Display & Window Manager",
+      "description": "Guard null Privacy Display controller in WindowManagerService to prevent NPE on dm1q",
+      "credit": "UN1CA Carbon Original Engineering by ALRI Development (AlexsAR & AlexsanderALRI)",
+      "action": "apk.patch",
+      "apk": "system/framework/services.jar",
+      "patch": "vendors_rezoss/mods_rezoss/smali/system/framework/services.jar/0001-Guard-null-Privacy-Display-controller.patch"
     },
     {
       "id": "patch_services_allow_disabling_secure_windows",

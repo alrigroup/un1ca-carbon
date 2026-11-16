@@ -1,0 +1,31 @@
+From 9a11ef0123456789abcdef0123456789abcdef01 Mon Sep 17 00:00:00 2001
+From: Alexsander ALRI <alexsanderalri@alrigroup.com>
+Date: Mon, 16 Nov 2026 18:30:00 -0300
+Subject: [PATCH] Guard AudioTask AudioRecord against UnsupportedOperationException on concurrent capture
+
+---
+ .../com/samsung/android/speech/AudioTask.smali              | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/smali_classes6/com/samsung/android/speech/AudioTask.smali b/smali_classes6/com/samsung/android/speech/AudioTask.smali
+index a1b2c3d..e4f5a6b 100644
+--- a/smali_classes6/com/samsung/android/speech/AudioTask.smali
++++ b/smali_classes6/com/samsung/android/speech/AudioTask.smali
+@@ -908,7 +908,7 @@
+     move-result-object v5
+     :try_end_0
+-    .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
++    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+     .catchall {:try_start_0 .. :try_end_0} :catchall_0
+ 
+     if-eqz v5, :cond_0
+@@ -959,7 +959,7 @@
+     invoke-static {v6, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+     :try_end_1
+-    .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_1
++    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
+     .catchall {:try_start_1 .. :try_end_1} :catchall_0
+ 
+     iget-object p0, p0, Lcom/samsung/android/speech/AudioTask;->mTAG:Ljava/lang/String;
+-- 
+2.43.0

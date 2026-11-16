@@ -1082,6 +1082,10 @@ LOG "- Patch services.jar AI notification priority/summary model gate"
 APPLY_PATCH "system" "system/framework/services.jar" \
     "$MODPATH/notification-priority/services.jar/0001-Allow-dm1q-dm2q-dm3q-AI-notification-priority.patch"
 
+LOG "- Guard null Privacy Display controller in services.jar"
+APPLY_PATCH "system" "system/framework/services.jar" \
+    "$MODPATH/smali/system/framework/services.jar/0001-Guard-null-Privacy-Display-controller.patch"
+
 LOG "- Patch SettingsProvider notification priority/summary defaults"
 APPLY_PATCH "system" "system/priv-app/SettingsProvider/SettingsProvider.apk" \
     "$MODPATH/notification-priority/SettingsProvider.apk/0001-Enable-notification-priority-default.patch"
