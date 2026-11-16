@@ -52,8 +52,9 @@ This guide details the complete flashing procedure for **UN1CA Carbon IX** on th
 UN1CA Carbon integrates the **GoRhanHee Custom Kernel (Linux 5.15.220)** with **KernelSU-Next (build 33452)**, **SuSFS v2.3.0**, and **NoMount v2.2.0** built directly into the kernel driver at ring 0.
 
 ### Recommended Manager Installation
-* **Official Release:** [KernelSU-Next v3.4.2](https://github.com/KernelSU-Next/KernelSU-Next/releases/tag/v3.4.2)
-* **Standard vs. Spoofed Package:** The choice between standard release APK (`KernelSU_Next_v3.4.2_33355-release.apk`) and a spoofed manager package is **100% up to the user** based on banking app evasion preferences.
+* **Official CI Channel:** [KernelSU-Next CI Telegram](https://t.me/ksunext_ci)
+* **Recommended Manager APK:** [Download KernelSU-Next CI #15234](https://t.me/ksunext_ci/15234)
+* **Standard vs. Spoofed Package:** The choice between standard release APK and a spoofed manager package is **100% up to the user** based on banking app evasion preferences.
 * **Offline Convenience:** During ROM installation, the flashable installer automatically extracts the official untouched KernelSU-Next APK to `/sdcard/KernelSU_Next.apk` so it is immediately accessible for installation without requiring internet access.
 
 ---

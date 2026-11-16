@@ -23,14 +23,21 @@
 
 | Artifact / File | Description | Official Download Link |
 | :--- | :--- | :--- |
-| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip`** | Full Signed Flashable Package (8.2 GB) | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
-| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip.sha256`** | Official Cryptographic Checksum Record | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
-| **`build_manifest.json`** | Enterprise v2 Cryptographic Manifest (SLSA/SBOM) | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
-| **`build_forensic_audit.log`** | Human-Readable Forensic Audit Report | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
-| **`build_engine.log`** | Carbon Engine C++20 Full Execution Log | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip`** | Full Signed Flashable Package (8.2 GB) | ⏳ *COMPILING... (Cooking in Carbon Engine C++20)* |
+| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip.sha256`** | Official Cryptographic Checksum Record | ⏳ *CALCULATING SHA-256... (Cooking...)* |
+| **`build_manifest.json`** | Enterprise v2 Cryptographic Manifest (SLSA/SBOM) | ⏳ *GENERATING SLSA v2 MANIFEST...* |
+| **`build_forensic_audit.log`** | Human-Readable Forensic Audit Report | ⏳ *GENERATING AUDIT LOG...* |
+| **`build_engine.log`** | Carbon Engine C++20 Full Execution Log | ⏳ *STREAMING COMPILER LOGS...* |
 
 * **Official Google Drive Release Directory:**  
   👉 **[https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)**
+
+---
+
+## 🛡️ Kernel & Root Management
+* **Integrated Kernel:** GoRhanHee Linux 5.15.220 + SuSFS v2.3.0 + NoMount v2.2.0
+* **KernelSU-Next CI Channel:** 📲 [https://t.me/ksunext_ci](https://t.me/ksunext_ci)
+* **Recommended Manager APK:** 📥 [KernelSU-Next CI Build #15234](https://t.me/ksunext_ci/15234)
 
 ---
 
@@ -60,7 +67,31 @@
 
 ---
 
-## 📲 Installation Instructions
+## 🔗 Git Commit Lineage & Engineering Traceability
+
+Every enhancement, fix, and calibration in **UN1CA Carbon IX v1.2** is bound to a verified cryptographic Git commit:
+
+| Component / Issue | Description | Originating Commit |
+| :--- | :--- | :---: |
+| **Now Nudge Multilingual** | 10 global languages (EN, PT, ES, ZH, DE, IT, JA, FR, KO, ID) & auto boot defaults | [`a233bcc`](https://github.com/alrigroup/un1ca-carbon/commit/a233bcc) |
+| **Now Nudge Continuous Pipeline** | Complete `0016-0027` Smali patches & WhatsApp chat bridge | [`ef3da57`](https://github.com/alrigroup/un1ca-carbon/commit/ef3da57) |
+| **Carbon Engine C++20 Alignment** | 100% DAG pipeline synchronization & OpenSSL 3.4 API cast | [`c6c942b`](https://github.com/alrigroup/un1ca-carbon/commit/c6c942b) |
+| **Issue #1 (AOD)** | Bump AODService versionCode to 999999999 (Fix Galaxy Store) | [`c066d16`](https://github.com/alrigroup/un1ca-carbon/commit/c066d16) |
+| **Issue #2 & #5 (Display)** | Purge Privacy Display emulation and extinguish red dot badge | [`9a23964`](https://github.com/alrigroup/un1ca-carbon/commit/9a23964) |
+| **Issue #3 (Camera)** | 4K 120 FPS Pro Video, continuous music recording & superfine JPEG | [`78fa9f6`](https://github.com/alrigroup/un1ca-carbon/commit/78fa9f6) |
+| **Issue #4 (Now Brief)** | Samsung Now Brief / Moments integration & LLM version 1.70 | [`29e5096`](https://github.com/alrigroup/un1ca-carbon/commit/29e5096) |
+| **Issue #6 (Boot Animation)** | Authentic "Samsung Boot Animation" selector in Carbon Settings | [`7aff32a`](https://github.com/alrigroup/un1ca-carbon/commit/7aff32a) |
+| **Issue #7 (Semantic Search)** | AI Semantic Search in Settings via neural embeddings | [`308cdc2`](https://github.com/alrigroup/un1ca-carbon/commit/308cdc2) |
+| **Issue #8 (Power Menu)** | Standardized 60dp circular icons for Recovery and Flight Mode | [`6a764bc`](https://github.com/alrigroup/un1ca-carbon/commit/6a764bc) |
+| **Issue #9 (Wallpapers)** | Restored authentic Galaxy S23 high-res stock wallpapers | [`71bd1c8`](https://github.com/alrigroup/un1ca-carbon/commit/71bd1c8) |
+| **Issue #10 (Mainline)** | Preserve native S23 apexd and gsid to prevent Play System rollbacks | [`6f6c1e9`](https://github.com/alrigroup/un1ca-carbon/commit/6f6c1e9) |
+| **Issue #11 (Battery)** | Mitigate IMS alarm loops and sensor hub wakelocks | [`42d1cb1`](https://github.com/alrigroup/un1ca-carbon/commit/42d1cb1) |
+| **Issue #12 (Camera HDR/LOG)**| Stabilize 60FPS HDR tone mapping and preserve LOG Video switches | [`908b4b7`](https://github.com/alrigroup/un1ca-carbon/commit/908b4b7) |
+| **Issue #13 & #15 (Kernel)** | GoRhanHee Kernel v2026.11.02 (Linux 5.15.220 + SuSFS 2.3.0 + NoMount) | [`ba4dbc8`](https://github.com/alrigroup/un1ca-carbon/commit/ba4dbc8) |
+| **Issue #14 (Audio HAL)** | SoundAlive 2025 acoustic profile & PAL graph audio routing | [`05c72a0`](https://github.com/alrigroup/un1ca-carbon/commit/05c72a0) |
+| **Local AI Refactor** | Purge heavy unstable Qwen local daemon to eliminate system crashes | [`44e5084`](https://github.com/alrigroup/un1ca-carbon/commit/44e5084) |
+
+---
 
 * **Coming from v1.0 / v1.1:** Flash `UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip` via TWRP or `adb sideload` (Wipe Cache/Dalvik recommended; dirty flash supported).
 * **Clean Installation (Scenario A / Bit A Base):** Boot into TWRP > Wipe > Format Data (`yes`) > Flash ZIP > Reboot System.
