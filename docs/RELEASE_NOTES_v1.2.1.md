@@ -65,9 +65,14 @@
 
 | Artifact / File | Description | Official Download Link |
 | :--- | :--- | :--- |
-| **`UN1CA_Carbon_IX_1.2.1_dm1q_GZIF.zip`** | Full Signed Flashable Package | ⏳ *COMPILING... (Cooking in Carbon Engine C++20)* |
-| **`UN1CA_Carbon_IX_1.2.1_dm1q_GZIF.zip.sha256`** | Official Cryptographic Checksum Record | ⏳ *CALCULATING SHA-256... (Cooking...)* |
-| **`build_manifest.json`** | Enterprise v2 Cryptographic Manifest (SLSA/SBOM) | ⏳ *GENERATING SLSA v2 MANIFEST...* |
-| **`build_forensic_audit.log`** | Human-Readable Forensic Audit Report | ⏳ *GENERATING FORENSIC REPORT...* |
-| **`build_engine.log`** | Carbon Engine C++20 Full Execution Log | ⏳ *STREAMING COMPILER LOGS...* |
+| **`UN1CA_Carbon_IX_1.2.1_dm1q_GZIF.zip`** | Full Signed Flashable Package (8.17 GB) | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+| **`UN1CA_Carbon_IX_1.2.1_dm1q_GZIF.zip.sha256`** | Official Cryptographic Checksum Record | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+| **`build_manifest.json`** | Enterprise v2 Cryptographic Manifest (SLSA/SBOM) | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+| **`build_forensic_audit.log`** | Human-Readable Forensic Audit Report | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+| **`build_engine.log`** | Carbon Engine C++20 Full Execution Log | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
 | **Official Release Folder** | Google Drive release directory | 📂 **[Access Google Drive Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+
+* **Package Checksum SHA-256:** `6c5298303896cccb3eabf9676d67fb8bbed584703d9ae4dfb774ca0b8c45ead3`
+* **Composite Build Fingerprint:** `c509ad61707e5b2efa0bbdbd7f783a33bad5108b06aeed0e5596688969df4a7a`
+* **Official Google Drive Release Directory:**  
+  👉 **[https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)**

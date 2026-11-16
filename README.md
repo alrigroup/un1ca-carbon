@@ -64,7 +64,8 @@ Built from official Samsung firmware, UN1CA Carbon combines enterprise security 
 | **OS Version** | One UI 9.0 Stable (Android 17 • SDK 37) |
 | **Required Firmware** | **FIRMWARE BIT A** (`SW REV: A` / Binary A) |
 | **Base Firmware** | `S911BXXUAGZIF` (Official Samsung Production Base) |
-| **Package Filename** | `UN1CA_Carbon_IX_1.2.1_dm1q_GZIF.zip` |
+| **Package Filename** | `UN1CA_Carbon_IX_1.2.1_dm1q_GZIF.zip` (8.17 GB) |
+| **SHA-256 Checksum** | `6c5298303896cccb3eabf9676d67fb8bbed584703d9ae4dfb774ca0b8c45ead3` |
 | **Official Release Folder**| 📂 **[Browse Official Google Drive Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
 | **Full Release Notes** | 📋 **[Read v1.2.1 Release Notes](docs/RELEASE_NOTES_v1.2.1.md)** |
 
