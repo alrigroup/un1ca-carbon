@@ -1,5 +1,5 @@
 # Property identifying the UN1CA version
-SET_PROP "system" "ro.unica.version" "UN1CA Carbon IX 1.1"
+SET_PROP "system" "ro.unica.version" "UN1CA Carbon IX 1.3"
 SET_PROP "system" "ro.unica.codename" "Carbon IX"
 SET_PROP "system" "ro.unica.maintainer" "ALRI Development (Lead: AlexsAR)"
 SET_PROP "system" "ro.unica.porter" "ALRI Development (Lead: AlexsanderALRI)"
