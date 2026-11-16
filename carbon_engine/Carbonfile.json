@@ -1080,12 +1080,22 @@
     {
       "id": "ff_genai_config_llm_version",
       "category": "Floating Features",
-      "description": "Set floating feature SEC_FLOATING_FEATURE_GENAI_CONFIG_LLM_VERSION=0.81",
+      "description": "Set floating feature SEC_FLOATING_FEATURE_GENAI_CONFIG_LLM_VERSION=1.70",
       "credit": "Rezoss Patches & Upstream S26U Stuffs by Rezoss-Reza (@Rezoss-Reza), adapted and maintained by ALRI Development (AlexsAR & AlexsanderALRI)",
       "action": "floating_feature.set",
       "file": "${WORK_DIR}/system/system/etc/floating_feature.xml",
       "key": "SEC_FLOATING_FEATURE_GENAI_CONFIG_LLM_VERSION",
-      "value": "0.81"
+      "value": "1.70"
+    },
+    {
+      "id": "ff_framework_support_now_brief",
+      "category": "Floating Features",
+      "description": "Set floating feature SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_NOW_BRIEF=TRUE",
+      "credit": "ALRI Development",
+      "action": "floating_feature.set",
+      "file": "${WORK_DIR}/system/system/etc/floating_feature.xml",
+      "key": "SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_NOW_BRIEF",
+      "value": "TRUE"
     },
     {
       "id": "ff_genai_support_offline_languagemodel",
@@ -1225,7 +1235,7 @@
       "action": "prop.set",
       "file": "${WORK_DIR}/system/system/build.prop",
       "key": "ro.build.display.id",
-      "value": "UN1CA Carbon IX v1.1 (GZIF)"
+      "value": "UN1CA Carbon IX v1.2 (GZIF)"
     },
     {
       "id": "prop_rom_version",
@@ -1235,7 +1245,7 @@
       "action": "prop.set",
       "file": "${WORK_DIR}/system/system/build.prop",
       "key": "ro.unica.version",
-      "value": "UN1CA Carbon IX 1.1"
+      "value": "UN1CA Carbon IX 1.2"
     },
     {
       "id": "prop_vulkan_default",
@@ -2019,15 +2029,6 @@
       "patch": "carbon_ours/branding_settings/smali/system/priv-app/SecSettings/SecSettings.apk/0005-Add-Advanced-GPU-Tuning.patch"
     },
     {
-      "id": "inject_secsettings_qwen_xml",
-      "category": "Carbon Local AI",
-      "description": "Inject Offline Local AI (Qwen 2.5) settings PreferenceScreen",
-      "credit": "UN1CA Carbon Original Engineering by ALRI Development",
-      "action": "fs.copy",
-      "source": "carbon_ours/branding_settings/SecSettings.apk/res/xml/carbon_qwen_settings.xml",
-      "destination": "${APKTOOL_DIR}/system/priv-app/SecSettings/SecSettings.apk/res/xml/carbon_qwen_settings.xml"
-    },
-    {
       "id": "inject_secsettings_gpu_icon",
       "category": "Carbon Settings UI",
       "description": "Inject One UI vector icon for GPU Tuning",
@@ -2071,6 +2072,87 @@
       "action": "apk.patch",
       "apk": "system/priv-app/SamsungSmartSuggestions/SamsungSmartSuggestions.apk",
       "patch": "vendors_rezoss/mods_rezoss/smartsuggestions/SamsungSmartSuggestions.apk/0018-Route-notification-assistant-requests-to-Now-Nudge.patch"
+    },
+    {
+      "id": "patch_smartsuggestions_now_nudge_data_backed_fallbacks",
+      "category": "Galaxy AI Now Nudge",
+      "description": "Use data-backed Now Nudge reply fallbacks from /system/etc/unica",
+      "credit": "ALRI Development & Rezoss",
+      "action": "apk.patch",
+      "apk": "system/priv-app/SamsungSmartSuggestions/SamsungSmartSuggestions.apk",
+      "patch": "vendors_rezoss/mods_rezoss/smartsuggestions/SamsungSmartSuggestions.apk/0016-Use-data-backed-Now-Nudge-reply-fallbacks.patch"
+    },
+    {
+      "id": "patch_smartsuggestions_telegram_content_capture",
+      "category": "Galaxy AI Now Nudge",
+      "description": "Add Telegram to ContentCapture allowlist",
+      "credit": "ALRI Development & Rezoss",
+      "action": "apk.patch",
+      "apk": "system/priv-app/SamsungSmartSuggestions/SamsungSmartSuggestions.apk",
+      "patch": "vendors_rezoss/mods_rezoss/smartsuggestions/SamsungSmartSuggestions.apk/0017-Add-Telegram-ContentCapture-allowlist.patch"
+    },
+    {
+      "id": "patch_smartsuggestions_json_category_rules",
+      "category": "Galaxy AI Now Nudge",
+      "description": "Use JSON category rules for Now Nudge fallbacks",
+      "credit": "ALRI Development & Rezoss",
+      "action": "apk.patch",
+      "apk": "system/priv-app/SamsungSmartSuggestions/SamsungSmartSuggestions.apk",
+      "patch": "vendors_rezoss/mods_rezoss/smartsuggestions/SamsungSmartSuggestions.apk/0019-Use-JSON-category-rules-for-Now-Nudge-fallbacks.patch"
+    },
+    {
+      "id": "patch_smartsuggestions_now_nudge_conversation_bridge",
+      "category": "Galaxy AI Now Nudge",
+      "description": "Restore Now Nudge conversation bridge for WhatsApp and messaging",
+      "credit": "ALRI Development & Rezoss",
+      "action": "apk.patch",
+      "apk": "system/priv-app/SamsungSmartSuggestions/SamsungSmartSuggestions.apk",
+      "patch": "vendors_rezoss/mods_rezoss/smartsuggestions/SamsungSmartSuggestions.apk/0020-Restore-CHN-Now-Nudge-conversation-bridge.patch"
+    },
+    {
+      "id": "patch_smartsuggestions_telegram_text_parser",
+      "category": "Galaxy AI Now Nudge",
+      "description": "Add Telegram class text parser fallback",
+      "credit": "ALRI Development & Rezoss",
+      "action": "apk.patch",
+      "apk": "system/priv-app/SamsungSmartSuggestions/SamsungSmartSuggestions.apk",
+      "patch": "vendors_rezoss/mods_rezoss/smartsuggestions/SamsungSmartSuggestions.apk/0021-Add-Telegram-class-text-parser-fallback.patch"
+    },
+    {
+      "id": "patch_smartsuggestions_prefer_json_fallback",
+      "category": "Galaxy AI Now Nudge",
+      "description": "Prefer JSON fallback before heavy AIOS chat replies",
+      "credit": "ALRI Development & Rezoss",
+      "action": "apk.patch",
+      "apk": "system/priv-app/SamsungSmartSuggestions/SamsungSmartSuggestions.apk",
+      "patch": "vendors_rezoss/mods_rezoss/smartsuggestions/SamsungSmartSuggestions.apk/0022-Prefer-JSON-fallback-before-AIOS-chat-replies.patch"
+    },
+    {
+      "id": "patch_smartsuggestions_ignore_stale_data",
+      "category": "Galaxy AI Now Nudge",
+      "description": "Ignore stale Now Nudge fallback data",
+      "credit": "ALRI Development & Rezoss",
+      "action": "apk.patch",
+      "apk": "system/priv-app/SamsungSmartSuggestions/SamsungSmartSuggestions.apk",
+      "patch": "vendors_rezoss/mods_rezoss/smartsuggestions/SamsungSmartSuggestions.apk/0023-Ignore-stale-Now-Nudge-fallback-data.patch"
+    },
+    {
+      "id": "patch_smartsuggestions_detect_language_from_message",
+      "category": "Galaxy AI Now Nudge",
+      "description": "Detect Now Nudge fallback language directly from message text",
+      "credit": "ALRI Development & Rezoss",
+      "action": "apk.patch",
+      "apk": "system/priv-app/SamsungSmartSuggestions/SamsungSmartSuggestions.apk",
+      "patch": "vendors_rezoss/mods_rezoss/smartsuggestions/SamsungSmartSuggestions.apk/0024-Detect-Now-Nudge-fallback-language-from-message.patch"
+    },
+    {
+      "id": "patch_smartsuggestions_preserve_whatsapp_nudge",
+      "category": "Galaxy AI Now Nudge",
+      "description": "Preserve WhatsApp chat nudges when personal-data autofill is UNKNOWN",
+      "credit": "ALRI Development & Rezoss",
+      "action": "apk.patch",
+      "apk": "system/priv-app/SamsungSmartSuggestions/SamsungSmartSuggestions.apk",
+      "patch": "vendors_rezoss/mods_rezoss/smartsuggestions/SamsungSmartSuggestions.apk/0027-Preserve-WhatsApp-conversation-nudge-on-unknown-autofill.patch"
     }
   ]
 }
