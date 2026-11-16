@@ -44,12 +44,12 @@ Accessible directly on the primary dashboard of Samsung Settings:
 
 ---
 
-## 🧠 3. Privacy-First On-Device AI (Qwen 2.5 LLM)
-Unlike proprietary cloud AI features that stream private texts, notes, and browsing history to remote third-party data centers, **UN1CA Carbon implements an on-device local intelligence engine**:
-* **100% Offline Execution:** Runs Qwen 2.5 Instruct neural models entirely within device silicon via the Snapdragon 8 Gen 2 Hexagon NPU and Adreno 740 GPU.
-* **Zero Telemetry & Zero Cloud Dependency:** Prompts, summaries, and outputs never leave the physical device.
-* **In-Settings Management Dashboard:** Displays engine operational status, local storage paths, and provides a direct model download trigger with SHA-256 integrity verification.
-* **Writing Toolkit Integration:** Powers conversational tone adjustments and Smart Suggestions across messaging applications.
+## 🧠 3. Native Multilingual Now Nudge & Contextual Intelligence
+Unlike heavy experimental local LLM daemons that monopolize 2.6 GB of RAM, overheat the device, and trigger `system_server` IPC watchdog timeouts, **UN1CA Carbon implements a lightweight, battery-friendly offline contextual intelligence engine**:
+* **100% Offline & Private:** Operates entirely within the device filesystem via `NowNudgeConversationBridge` in `SamsungSmartSuggestions.apk` (`classes15.dex`) and `/system/etc/unica/now_nudge_reply_fallbacks.json`. Prompts, conversations, and contacts never leave the phone.
+* **Global Multilingual Support (10 Languages):** Native conversational reply rules and templates covering 214 semantic categories in **English, Portuguese (PT-BR), Spanish, Mandarin Chinese, German, Italian, Japanese, French, Korean, and Indonesian**.
+* **Zero User Setup Required:** Pre-configured to initialize out of the box (`now_nudge_enabled=1`, `nowbrief_enabled=1`, `smart_suggestions_enabled=1`) with automatic `writing_assistant` injection into the Samsung Keyboard (`HoneyBoard`) for all active languages.
+* **Instant Sub-5ms Latency:** Generates context-aware smart reply pills on WhatsApp, Telegram, and SMS instantly upon receiving a message, with near-zero CPU and memory overhead.
 
 ---
 
@@ -78,7 +78,7 @@ Unlike proprietary cloud AI features that stream private texts, notes, and brows
 
 ## 🛠️ 7. Core Engineering & System Architecture (ALRI Carbon Layer)
 * **Hardware-Backed File-Based Encryption (FBE):** Preserves authentic Samsung One UI 9 FBE storage security on UFS 4.0 (`/dev/block/sda41`), avoiding the fatal `vold` daemon crashes and black-screen hangs caused by legacy `encryptable` hacks, while ensuring full compatibility with TWRP recovery formatting.
-* **Integrated GoRhanHee Kernel (Linux 5.15.216):** High-performance Snapdragon 8 Gen 2 kernel pre-packaged with KernelSU-Next v3.4.2 and SUSFS, fully synchronized with matching DLKM drivers.
+* **Integrated GoRhanHee Kernel (Linux 5.15.220):** High-performance Snapdragon 8 Gen 2 kernel pre-packaged with KernelSU-Next (build 33452), SuSFS v2.3.0, and NoMount v2.2.0, fully synchronized with matching DLKM drivers.
 * **Automated TWRP Recovery Flashing:** Preserves and flashes the official Team Win Recovery Project (`recovery.img`) directly in the installer package.
 * **Reinforced SurfaceFlinger:** Corrected dynamic linker binding against Samsung Snapdragon 8 Gen 2 native `libbase.so` (`fmt::v12`), eliminating fatal display compositor crashes (`CANNOT LINK EXECUTABLE`).
 * **Official Samsung Keyboard (`HoneyBoard`):** Original Samsung certificate (`CN=Samsung Cert`) and `oat/arm64` ahead-of-time compiled binaries preserved, ensuring instant keyboard rendering during FRP-protected initial device setup.

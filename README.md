@@ -13,7 +13,7 @@
 <br><br>
 
 **Next-Generation One UI 9 Custom ROM for Samsung Galaxy S23 Series**  
-*Release Version: **IX v1.1** (One UI 9.0 Stable • Android 17 • SDK 37)*  
+*Release Version: **IX v1.2** (One UI 9.0 Stable • Android 17 • SDK 37)*  
 *Engineered, Ported & Stabilized for Galaxy S23 Base (`SM-S911B` / `SM-S9110` / `dm1q`)*  
 *Official Base Firmware: `S911BXXUAGZIF` (SW REV: A • Binary A)*  
 *Cryptographic Signature: `OFFICIAL_CARBON_KEYS` (RSA 4096-bit ALRI GROUP)*
@@ -23,7 +23,7 @@
 [![Android](https://img.shields.io/badge/Android-17-green.svg)](https://developer.android.com)
 [![OneUI](https://img.shields.io/badge/OneUI-9.0--Stable-blue.svg)](https://www.samsung.com)
 [![Device](https://img.shields.io/badge/Target-Galaxy%20S23%20(dm1q)-orange.svg)](https://github.com/alrigroup/un1ca-carbon)
-[![Kernel](https://img.shields.io/badge/Kernel-GoRhanHee%205.15.216-red.svg)](https://github.com/alrigroup/un1ca-carbon)
+[![Kernel](https://img.shields.io/badge/Kernel-GoRhanHee%205.15.220-red.svg)](https://github.com/alrigroup/un1ca-carbon)
 [![Root](https://img.shields.io/badge/Root-KernelSU--Next-blueviolet.svg)](https://github.com/alrigroup/un1ca-carbon)
 [![License](https://img.shields.io/badge/License-ARGLP-brightgreen.svg)](LICENSE)
 
@@ -35,38 +35,39 @@
 
 **UN1CA Carbon** is a customized and stabilized distribution of **Samsung One UI 9.0 Stable (Android 17 / SDK 37)** designed specifically to bring Samsung's latest software generation to the **Galaxy S23 Base (`SM-S911B` / `SM-S9110` / `dm1q`)**.
 
-Built from official Samsung firmware, UN1CA Carbon combines enterprise security (private RSA-4096 keys), kernel-level stealth (KernelSU-Next + SUSFS), local privacy-first offline AI (Qwen 2.5), and deep hardware optimizations into a single seamless daily-driver package.
+Built from official Samsung firmware, UN1CA Carbon combines enterprise security (private RSA-4096 keys), kernel-level stealth (KernelSU-Next + SUSFS), native offline contextual intelligence (Now Nudge in 10 global languages), and deep hardware optimizations into a single seamless daily-driver package.
 
 ---
 
-## 🌟 Key Highlights
+## 🌟 Key Highlights (v1.2 Release)
 
-* 📱 **Native S23 Flat Display Calibration:** 120Hz adaptive refresh rate with zero flickering (`HFR Mode 2`).
+* 📱 **Native S23 Flat Display Calibration:** 120Hz adaptive refresh rate with zero flickering and fine-tuned 0.85x animation physics.
 * 🔒 **Authentic FBE v2 Encryption:** Genuine Samsung Hardware File-Based Encryption preserved on UFS 4.0 storage without unstable DFE hacks.
-* ⚡ **GoRhanHee Kernel (Linux 5.15.216):** Pre-packaged high-performance kernel with **KernelSU-Next v3.4.2** and **SUSFS** integrated out of the box.
+* ⚡ **GoRhanHee Kernel (Linux 5.15.220):** Pre-packaged high-performance kernel with **KernelSU-Next (build 33452)**, **SuSFS v2.3.0**, and **NoMount v2.2.0** integrated out of the box.
 * 🛡️ **Play Integrity Strong:** Passes `MEETS_BASIC_INTEGRITY`, `MEETS_DEVICE_INTEGRITY`, and `MEETS_STRONG_INTEGRITY` (0 detections on Native Detector & Duck Detector).
-* 🔐 **Enterprise Private Signing:** Fully decoupled from public AOSP test-keys; signed with ALRI GROUP's 4-tier RSA 4096-bit keyset.
-* 🧠 **On-Device Offline AI:** Integrated local **Qwen 2.5 LLM** running locally via Hexagon NPU and Adreno 740 GPU with 100% data privacy.
+* 🔐 **Enterprise Private Signing:** Fully decoupled from public AOSP test-keys; signed with ALRI GROUP's dedicated RSA 4096-bit keyset.
+* 🧠 **Native Multilingual Now Nudge:** Instant contextual smart replies across WhatsApp, Telegram, and SMS in **10 global languages** (EN, PT, ES, ZH, DE, IT, JA, FR, KO, ID) with zero battery overhead.
+* 📹 **Pro Video 4K 120 FPS & Superfine JPEG:** Unlocked 120 FPS UHD recording, continuous audio without pausing music, and stabilized 60FPS HDR tone mapping.
 * 🎛️ **Carbon Performance Selector:** Native One UI dropdown in Settings for Light 🍃, Normal ⚖️, and Performance 🔥 modes.
-* 📞 **Fixed Call Screening & Wireless DeX:** Unlocked Bixby Text Call audio routing, SoundAlive 2025, and permanent Miracast HDCP bypass.
+* 🎨 **Authentic Samsung Boot Animation:** Selectable official One UI shining boot animation alongside UN1CA Carbon and AOSP styles.
+* 🔋 **Standby Battery Optimization:** Mitigated European carrier IMS alarm loops and sensor hub wakelocks, restoring genuine deep sleep (0.5%–0.8%/hr).
 
 ---
 
 ## 📥 Downloads & Release Package
 
-### Current Stable: UN1CA Carbon IX v1.1 (`dm1q` Universal)
+### Current Stable: UN1CA Carbon IX v1.2 (`dm1q` Universal)
 
 | Parameter | Specification |
 | :--- | :--- |
 | **Target Device** | Samsung Galaxy S23 Base (`SM-S911B` & `SM-S9110` / `dm1q`) |
 | **OS Version** | One UI 9.0 Stable (Android 17 • SDK 37) |
 | **Required Firmware** | **FIRMWARE BIT A** (`SW REV: A` / Binary A) |
-| **Base Firmware** | `S911BXXUAGZIF` (Official Samsung Base) |
-| **Package Filename** | `UN1CA_Carbon_IX_1.1_dm1q_GZIF.zip` (8.04 GB) |
-| **SHA-256 Checksum** | `cd77ec82803072cdba05b755ad7d5ff1d75ceaf4efe88281fe932a42d7ed5c8f` |
-| **Direct Download** | 🔗 **[Download via Google Drive (Official Mirror)](https://drive.google.com/file/d/1unr3tUWE6bpBaLCgJuGhLvDMZ6jZrZIg/view?usp=sharing)** |
-| **Official Release Folder**| 📂 **[Browse Google Drive Folder](https://drive.google.com/drive/folders/1ynY69aPsvnyndN2VqWr13NyqD6CTEvZn?usp=sharing)** |
-| **Full Release Notes** | 📋 **[Read v1.1 Release Notes](docs/RELEASE_NOTES_v1.1.md)** |
+| **Base Firmware** | `S911BXXUAGZIF` (Official Samsung Production Base) |
+| **Package Filename** | `UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip` (8.2 GB) |
+| **Package Checksum (SHA-256)**| Verified in `UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip.sha256` |
+| **Official Release Folder**| 📂 **[Browse Official Google Drive Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+| **Full Release Notes** | 📋 **[Read v1.2 Release Notes](docs/RELEASE_NOTES_v1.2.md)** |
 
 ---
 
@@ -128,7 +129,7 @@ Feel free to open a PR, join discussions in Issues, or connect with us!
 * **Organization & Official Maintainer:** **ALRI Development** ([ALRIGROUP](https://github.com/alrigroup))
 * **Lead Maintainer & Lead Developer:** **Alexsander "AlexsAR" ALRI** ([@alexsanderalri](https://github.com/alexsanderalri))
 * **Port, Systems & Display Engineering:** **ALRI Development**
-* **Custom Kernel (Linux 5.15.216):** **GoRhanHee** ([@GoRhanHee](https://github.com/GoRhanHee)) — High-performance Snapdragon 8 Gen 2 kernel with SUSFS & KernelSU integration
+* **Custom Kernel (Linux 5.15.220):** **GoRhanHee** ([@GoRhanHee](https://github.com/GoRhanHee)) — High-performance Snapdragon 8 Gen 2 kernel with SUSFS v2.3.0, NoMount v2.2.0, and KernelSU-Next (build 33452) integration
 * **Root Solution (KernelSU-Next):** **rifsxd** ([@rifsxd](https://github.com/rifsxd)) & [KernelSU-Next Contributors](https://github.com/rifsxd/KernelSU-Next), based on KernelSU by **tiann** ([@tiann](https://github.com/tiann))
 * **Custom Recovery (TWRP):** [Team Win Recovery Project](https://github.com/TeamWin) ([twrp.me](https://twrp.me)) & Galaxy S23 maintainers ([@archer9634](https://github.com/archer9634))
 * **One UI 9 Framework Engine:** [@Rezoss-Reza](https://github.com/Rezoss-Reza)

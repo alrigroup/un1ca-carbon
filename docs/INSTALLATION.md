@@ -18,10 +18,10 @@ This guide details the complete flashing procedure for **UN1CA Carbon IX** on th
 1. **Boot into TWRP Recovery:** Power off your device, connect to PC via USB, hold `Volume Up + Power` until TWRP launches.
 2. **Format Userdata (Crucial):** Go to **Wipe > Format Data**, type `yes`, and confirm. *(Mandatory to initialize clean FBE v2 encryption metadata structures).*
 3. **Flash UN1CA Carbon:**
-   * **Via Storage:** Copy `UN1CA_Carbon_IX_1.1_dm1q_GZIF.zip` to internal storage or USB-OTG drive, tap **Install**, select the file, and swipe to flash. **OR**
+   * **Via Storage:** Copy `UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip` to internal storage or USB-OTG drive, tap **Install**, select the file, and swipe to flash. **OR**
    * **Via ADB Sideload:** In TWRP, go to **Advanced > ADB Sideload**, swipe to start, and run from terminal:
      ```bash
-     adb sideload UN1CA_Carbon_IX_1.1_dm1q_GZIF.zip
+     adb sideload UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip
      ```
    > **⏳ CRITICAL ADB SIDELOAD BEHAVIOR NOTICE:**  
    > When using `adb sideload`, transmission progress on your PC terminal may appear to pause or stay at ~43%–47%. **IT HAS NOT CRASHED!** TWRP is actively decompressing and writing multiple gigabytes of uncompressed EROFS partitions directly to physical UFS blocks. **DO NOT UNPLUG OR REBOOT.** Wait patiently until the blue **"Reboot System"** button lights up on the device screen.
@@ -42,14 +42,14 @@ This guide details the complete flashing procedure for **UN1CA Carbon IX** on th
 3. **First Boot Handshake (Mandatory):** Let the patched stock base boot completely into the initial Welcome/Setup screen at least once. This step is mandatory to initialize hardware NVRAM, baseband modem, and TrustZone enclaves for Bit A. Then power off the device.
 4. **Flash TWRP Recovery:** Enter Download Mode again and flash TWRP (`recovery.tar`) in the AP slot via Odin.
 5. **Format Userdata:** Boot directly into TWRP, navigate to **Wipe > Format Data**, type `yes`, and confirm.
-6. **Install UN1CA Carbon:** Flash `UN1CA_Carbon_IX_1.1_dm1q_GZIF.zip` via TWRP Install or `adb sideload` (observing the wait warning above).
+6. **Install UN1CA Carbon:** Flash `UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip` via TWRP Install or `adb sideload` (observing the wait warning above).
 7. **Reboot System:** Tap Reboot System.
 
 ---
 
 ## 🛡️ Root Access & KernelSU-Next Management
 
-UN1CA Carbon integrates the **GoRhanHee Custom Kernel (Linux 5.15.216)** with **KernelSU-Next** and **SUSFS** built directly into the kernel driver at ring 0.
+UN1CA Carbon integrates the **GoRhanHee Custom Kernel (Linux 5.15.220)** with **KernelSU-Next (build 33452)**, **SuSFS v2.3.0**, and **NoMount v2.2.0** built directly into the kernel driver at ring 0.
 
 ### Recommended Manager Installation
 * **Official Release:** [KernelSU-Next v3.4.2](https://github.com/KernelSU-Next/KernelSU-Next/releases/tag/v3.4.2)
