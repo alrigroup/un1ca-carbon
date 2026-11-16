@@ -24,11 +24,11 @@
 
 | Artifact / File | Description | Official Download Link |
 | :--- | :--- | :--- |
-| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip`** | Full Signed Flashable Package (8.17 GB) | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
-| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip.sha256`** | Official Cryptographic Checksum Record | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
-| **`build_manifest.json`** | Enterprise v2 Cryptographic Manifest (SLSA/SBOM) | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
-| **`build_forensic_audit.log`** | Human-Readable Forensic Audit Report | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
-| **`build_engine.log`** | Carbon Engine C++20 Full Execution Log | 📂 **[Download via Google Drive Release Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip`** | Full Signed Flashable Package (8.17 GB) | ⏳ *Finalizing Google Drive Upload... (Available in Folder)* |
+| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip.sha256`** | Official Cryptographic Checksum Record | 🔐 **[Download Checksum](https://drive.google.com/file/d/18GLMOqYLCVfMsub8x4080obK8ipUIRGi/view?usp=sharing)** |
+| **`build_manifest.json`** | Enterprise v2 Cryptographic Manifest (SLSA/SBOM) | 📄 **[Download Manifest](https://drive.google.com/file/d/1ppg48iD7Ngf8xYgd9-um1UGTrSA8VpTQ/view?usp=sharing)** |
+| **`build_forensic_audit.log`** | Human-Readable Forensic Audit Report | 📋 **[Download Audit Log](https://drive.google.com/file/d/1gaMCxMNhpV131IKHqwj2eMLaO_DajzyH/view?usp=sharing)** |
+| **`build_engine.log`** | Carbon Engine C++20 Full Execution Log | 📜 **[Download Build Log](https://drive.google.com/file/d/15Y-OWq6mOUi7S7t395hKXaEPxbrkrlot/view?usp=sharing)** |
 | **Complete Google Drive Folder** | All artifacts, logs, and checksums in one directory | 📂 **[Access Google Drive Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
 
 * **Package Checksum SHA-256:** `4044a3e208d5f51c47e14690394d9915ad86c6b861ece21b3131e37db5682a0f`
@@ -49,12 +49,12 @@
 
 | Play Integrity (STRONG) | Duck Detector (Clean) | Native Detector (Clean) |
 | :---: | :---: | :---: |
-| <img src="https://github.com/alrigroup/un1ca-carbon/releases/download/v1.1/PIF.jpg" width="250"/> | <img src="https://github.com/alrigroup/un1ca-carbon/releases/download/v1.1/duck.jpg" width="250"/> | <img src="https://github.com/alrigroup/un1ca-carbon/releases/download/v1.1/native.jpg" width="250"/> |
+| <img src="https://github.com/alrigroup/un1ca-carbon/releases/download/IX-v1.2/PIF.jpg" width="250"/> | <img src="https://github.com/alrigroup/un1ca-carbon/releases/download/IX-v1.2/duck.jpg" width="250"/> | <img src="https://github.com/alrigroup/un1ca-carbon/releases/download/IX-v1.2/native.jpg" width="250"/> |
 | **Passes MEETS_STRONG_INTEGRITY** | **100% Anti-Detection Stealth** | **Native Root & Environment Clean** |
 
 | UN1CA Carbon Settings | Software Information (One UI 9.0) |
 | :---: | :---: |
-| <img src="https://github.com/alrigroup/un1ca-carbon/releases/download/v1.1/carbonsettings.jpg" width="250"/> | <img src="https://github.com/alrigroup/un1ca-carbon/releases/download/v1.1/info.jpg" width="250"/> |
+| <img src="https://github.com/alrigroup/un1ca-carbon/releases/download/IX-v1.2/carbonsettings.jpg" width="250"/> | <img src="https://github.com/alrigroup/un1ca-carbon/releases/download/IX-v1.2/info.jpg" width="250"/> |
 | **Custom Controls & Performance Tuning** | **Android 17 • One UI 9.0 Stable (GZIF)** |
 
 ---
