@@ -20,24 +20,6 @@
 
 ---
 
-## 📥 Official Download Links & Cryptographic Checksums
-
-| Artifact / File | Description | Official Download Link |
-| :--- | :--- | :--- |
-| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip`** | Full Signed Flashable Package (8.17 GB) | 🔗 **[Direct Google Drive ZIP](https://drive.google.com/file/d/1KnW7g478gRYDkx1WvqnmXkuVrsfneZu1/view?usp=drive_link)** |
-| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip.sha256`** | Official Cryptographic Checksum Record | 🔐 **[Download Checksum](https://drive.google.com/file/d/18GLMOqYLCVfMsub8x4080obK8ipUIRGi/view?usp=sharing)** |
-| **`build_manifest.json`** | Enterprise v2 Cryptographic Manifest (SLSA/SBOM) | 📄 **[Download Manifest](https://drive.google.com/file/d/1ppg48iD7Ngf8xYgd9-um1UGTrSA8VpTQ/view?usp=sharing)** |
-| **`build_forensic_audit.log`** | Human-Readable Forensic Audit Report | 📋 **[Download Audit Log](https://drive.google.com/file/d/1gaMCxMNhpV131IKHqwj2eMLaO_DajzyH/view?usp=sharing)** |
-| **`build_engine.log`** | Carbon Engine C++20 Full Execution Log | 📜 **[Download Build Log](https://drive.google.com/file/d/15Y-OWq6mOUi7S7t395hKXaEPxbrkrlot/view?usp=sharing)** |
-| **Complete Google Drive Folder** | All artifacts, logs, and checksums in one directory | 📂 **[Access Google Drive Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
-
-* **Package Checksum SHA-256:** `4044a3e208d5f51c47e14690394d9915ad86c6b861ece21b3131e37db5682a0f`
-* **Composite Build Fingerprint:** `96f80451112dc2c7df50615b6043e4ec847416f58f6e89368a7e35e225c95117`
-* **Official Google Drive Release Directory:**  
-  👉 **[https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)**
-
----
-
 ## 🛡️ Kernel & Root Management
 * **Integrated Kernel:** GoRhanHee Linux 5.15.220 + SuSFS v2.3.0 + NoMount v2.2.0
 * **KernelSU-Next CI Channel:** 📲 [https://t.me/ksunext_ci](https://t.me/ksunext_ci)
@@ -127,3 +109,21 @@
 * **Coming from v1.0 / v1.1:** Flash `UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip` via TWRP or `adb sideload` (Wipe Cache/Dalvik recommended; dirty flash supported).
 * **Clean Installation (Scenario A / Bit A Base):** Boot into TWRP > Wipe > Format Data (`yes`) > Flash ZIP > Reboot System.
 * **For detailed Odin Bit A upgrade instructions, refer to:** **[docs/INSTALLATION.md](INSTALLATION.md)**.
+
+---
+
+## 📥 Official Download Links & Cryptographic Checksums
+
+| Artifact / File | Description | Official Download Link |
+| :--- | :--- | :--- |
+| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip`** | Full Signed Flashable Package (8.17 GB) | 🔗 **[Direct Google Drive ZIP](https://drive.google.com/file/d/1KnW7g478gRYDkx1WvqnmXkuVrsfneZu1/view?usp=drive_link)** |
+| **`UN1CA_Carbon_IX_1.2_dm1q_GZIF.zip.sha256`** | Official Cryptographic Checksum Record | 🔐 **[Download Checksum](https://drive.google.com/file/d/18GLMOqYLCVfMsub8x4080obK8ipUIRGi/view?usp=sharing)** |
+| **`build_manifest.json`** | Enterprise v2 Cryptographic Manifest (SLSA/SBOM) | 📄 **[Download Manifest](https://drive.google.com/file/d/1ppg48iD7Ngf8xYgd9-um1UGTrSA8VpTQ/view?usp=sharing)** |
+| **`build_forensic_audit.log`** | Human-Readable Forensic Audit Report | 📋 **[Download Audit Log](https://drive.google.com/file/d/1gaMCxMNhpV131IKHqwj2eMLaO_DajzyH/view?usp=sharing)** |
+| **`build_engine.log`** | Carbon Engine C++20 Full Execution Log | 📜 **[Download Build Log](https://drive.google.com/file/d/15Y-OWq6mOUi7S7t395hKXaEPxbrkrlot/view?usp=sharing)** |
+| **Complete Google Drive Folder** | All artifacts, logs, and checksums in one directory | 📂 **[Access Google Drive Folder](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)** |
+
+* **Package Checksum SHA-256:** `4044a3e208d5f51c47e14690394d9915ad86c6b861ece21b3131e37db5682a0f`
+* **Composite Build Fingerprint:** `96f80451112dc2c7df50615b6043e4ec847416f58f6e89368a7e35e225c95117`
+* **Official Google Drive Release Directory:**  
+  👉 **[https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing](https://drive.google.com/drive/folders/1tIanbf9x7SMK8xiY1DWQx99YI6BtCpRW?usp=sharing)**
